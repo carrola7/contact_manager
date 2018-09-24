@@ -7,8 +7,77 @@
   <title>Document</title>
   <script type="text/javascript" src="/javascripts/jquery.js"></script>
   <script type="text/javascript" src="/javascripts/handlebars.js"></script>
+  <script type="text/javascript" src="/javascripts/application.js"></script>
 </head>
 <body>
+  <header>
+    <h1>Contact Manager</h1>
+    <h4>Using Sinatra, Active Record, jQuery and Handlebars</h4>
+  </header>
+  <main>
+    <div id="contacts_page">
+      <nav>
+        <ul>
+          <li>
+            <button>Add Contact</button>
+          </li>
+          <li>
+            <select>
+              <option value="">--Filter by Tag--</option>
+              <option value="friends">Friends</option>
+              <option value="family">Family</option>
+              <option value="work">Work</option>
+              <option value="business">Business</option>
+            </select>
+          </li>
+          <li>
+            <input type="text" name="search" id="search" placeholder="Search">
+          </li>
+        </ul>
+      </nav>
+      <ul id="contacts_list">
 
+      </ul>
+    </div>
+    <div id="create_form">
+      <h4>Create Contact</h4>
+      <form method="POST" action="/api/contacts">
+        <ul>
+          <li>
+            <label for="createFullName">Full Name</label>
+            <input type="text" name="full_name" id="createFullName"/>
+          </li>
+          <li>
+            <label for="createEmail">Email Address</label>
+            <input type="text" name="full_name" id="createEmail"/>
+          </li>
+          <li>
+            <label for="createFullName">Full Name</label>
+            <input type="text" name="full_name" id="createFullName"/>
+          </li>
+        </ul>
+      </form>
+    </div>
+  </main>
+  <footer>
+  </footer>
+    <script id="contact_template" data-type="partial" type="text/x-handlebars">
+    <li data-tags={{tags}}>
+      <h3>{{full_name}}</h3>
+      <dl>
+        <dt>{{Phone Number}}</dt>
+        <dd>{{phone_number}}</dd>
+      </dl>
+      <dl>
+        <dt>{{Email}}</dt>
+        <dd>{{email}}</dd>
+      </dl>
+    </li>
+  </script>
+  <script id="contact_partial" type="text/x-handlebars">
+    {{#each contact}}
+      {{> contactPartial}}
+    {{/each}}
+  </script>
 </body>
 </html>
