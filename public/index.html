@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
   <script type="text/javascript" src="/javascripts/jquery.js"></script>
   <script type="text/javascript" src="/javascripts/handlebars.js"></script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
@@ -15,11 +16,11 @@
     <h4>Using Sinatra, Active Record, jQuery and Handlebars</h4>
   </header>
   <main>
-    <div id="contacts_page">
+    <div class="page" id="contacts_page">
       <nav>
         <ul>
           <li>
-            <button>Add Contact</button>
+            <button id="add_contact">Add Contact</button>
           </li>
           <li>
             <select>
@@ -39,45 +40,107 @@
 
       </ul>
     </div>
-    <div id="create_form">
-      <h4>Create Contact</h4>
-      <form method="POST" action="/api/contacts">
+    <div id="add_contact_page" class="hidden page">
+      <h4>Add Contact</h4>
+      <form id="add_contact_form" method="POST" action="/api/contacts">
         <ul>
           <li>
-            <label for="createFullName">Full Name</label>
-            <input type="text" name="full_name" id="createFullName"/>
+            <label for="full_name">Full Name</label>
+            <input type="text" name="full_name" id="full_name" required />
           </li>
           <li>
-            <label for="createEmail">Email Address</label>
-            <input type="text" name="full_name" id="createEmail"/>
+            <label for="email">Email Address</label>
+            <input type="text" name="email" id="email" required pattern=".+@.*"/>
           </li>
           <li>
-            <label for="createFullName">Full Name</label>
-            <input type="text" name="full_name" id="createFullName"/>
+            <label for="phone">Telephone Number</label>
+            <input type="text" name="phone" id="phone" required/>
+          </li>
+          <li>
+            <label for="tag">
+              <select id="tag" name="tag">
+                <option value="">--Add a Tag--</option>
+                <option value="friends">Friends</option>
+                <option value="family">Family</option>
+                <option value="work">Work</option>
+                <option value="business">Business</option>
+              </select>
+            </label>
+            <button type="button">Add</button>
           </li>
         </ul>
+        <button type="submit">Submit</button>
+        <button type="button">Cancel</button>
       </form>
+    </div>
+    <div id="edit_contact_page" class="hidden page">
     </div>
   </main>
   <footer>
   </footer>
-    <script id="contact_template" data-type="partial" type="text/x-handlebars">
+    <script id="contactPartial" data-type="partial" type="text/x-handlebars">
     <li data-tags={{tags}}>
       <h3>{{full_name}}</h3>
       <dl>
-        <dt>{{Phone Number}}</dt>
+        <dt>Phone Number</dt>
         <dd>{{phone_number}}</dd>
       </dl>
       <dl>
-        <dt>{{Email}}</dt>
+        <dt>Email</dt>
         <dd>{{email}}</dd>
       </dl>
+      <ul>
+        <li>
+          <button data-type="edit" data-id={{id}}>Edit</button>
+        </li>
+        <li>
+          <button data-type="delete" data-id={{id}}>Delete</button>
+        </li>
+      </ul>
     </li>
   </script>
-  <script id="contact_partial" type="text/x-handlebars">
+  <script id="contact_template" type="text/x-handlebars">
     {{#each contact}}
       {{> contactPartial}}
     {{/each}}
+  </script>
+  <script id="contact_form" type="text/x-handlebars">
+    <h4>Edit Contact</h4>
+    <form method="PUT" action="/api/contacts/{{id}}">
+      <ul>
+        <li>
+          <label for="full_name">Full Name</label>
+          <input type="text" name="full_name" id="full_name" value="{{full_name}}" required/>
+        </li>
+        <li>
+          <label for="email">Email Address</label>
+          <input type="text" name="email" id="email" value="{{email}}" required pattern=".+@.*"/>
+        </li>
+        <li>
+          <label for="phone">Telephone Number</label>
+          <input type="text" name="phone" id="phone" value="{{phone_number}}" required/>
+        </li>
+        <li>
+          <label for="tag">
+            <select id="tag" name="tag">
+              <option value="">--Add a Tag--</option>
+              <option value="friends">Friends</option>
+              <option value="family">Family</option>
+              <option value="work">Work</option>
+              <option value="business">Business</option>
+            </select>
+          </label>
+          <button type="button">Add</button>
+        </li>
+      </ul>
+      <ul>
+        {{#each tags}}
+          <li><p class="tag">{{.}}</p></li>
+        {{/each}}
+      </ul>
+      <button type="submit">Submit</button>
+      <button type="button">Cancel</button>
+    </form>
   </script>
 </body>
 </html>

@@ -1,0 +1,1063 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"cre",
+				"createFullName"
+			],
+			[
+				"opt",
+				"option\tTag"
+			],
+			[
+				"java",
+				"javascripts"
+			],
+			[
+				"add",
+				"addEventListener"
+			],
+			[
+				"get",
+				"getSpanText"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"staff",
+				"staff_members"
+			],
+			[
+				"staf",
+				"staffMember"
+			],
+			[
+				"templ",
+				"templateSource"
+			],
+			[
+				"reso",
+				"response"
+			],
+			[
+				"ret",
+				"retrieveSchedules"
+			],
+			[
+				"form",
+				"formData"
+			],
+			[
+				"ch",
+				"checkValidity"
+			],
+			[
+				"hand",
+				"handleKeyUp"
+			],
+			[
+				"handle",
+				"handlePhoneBlur"
+			],
+			[
+				"handl",
+				"handleEmailBlur"
+			],
+			[
+				"bind",
+				"bindAllFocusEvents"
+			],
+			[
+				"fir",
+				"firstName"
+			],
+			[
+				"auto",
+				"autocomplete-wrapper"
+			],
+			[
+				"select",
+				"selectCountry"
+			],
+			[
+				"pre",
+				"previousValue"
+			],
+			[
+				"sele",
+				"selected"
+			],
+			[
+				"clss",
+				"classList"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"o",
+				"overlay"
+			],
+			[
+				"create",
+				"createElement"
+			],
+			[
+				"new",
+				"newText"
+			],
+			[
+				"upd",
+				"updateText"
+			],
+			[
+				"hanld",
+				"handleLikeClick"
+			],
+			[
+				"handleClick",
+				"handleClickPrev"
+			],
+			[
+				"hanl",
+				"handleClickNext"
+			],
+			[
+				"render",
+				"renderCommentsFor"
+			],
+			[
+				"cure",
+				"currentPhotoId"
+			],
+			[
+				"reder",
+				"renderSlides"
+			],
+			[
+				"rend",
+				"renderPhotoInfoFor"
+			],
+			[
+				"photo",
+				"photoInfo"
+			],
+			[
+				"post",
+				"postPartialsource"
+			],
+			[
+				"tag",
+				"tagPartial"
+			],
+			[
+				"is",
+				"isGameLost"
+			],
+			[
+				"check",
+				"checkForLoser"
+			],
+			[
+				"chec",
+				"checkForWinner"
+			],
+			[
+				"update",
+				"updateGuesses"
+			],
+			[
+				"key",
+				"keyPressed"
+			],
+			[
+				"reset",
+				"resetWord"
+			],
+			[
+				"dis",
+				"displayGuesses"
+			],
+			[
+				"ran",
+				"randomWord"
+			],
+			[
+				"han",
+				"handleStartStop"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"gma",
+				"gameIds"
+			],
+			[
+				"prod",
+				"products"
+			],
+			[
+				"consoe",
+				"consoles"
+			],
+			[
+				"pro",
+				"products"
+			],
+			[
+				"call",
+				"callback"
+			],
+			[
+				"prom",
+				"promise"
+			],
+			[
+				"proi",
+				"promise2"
+			],
+			[
+				"promise",
+				"promise1"
+			],
+			[
+				"time",
+				"timeoutInterval"
+			],
+			[
+				"for",
+				"forEach"
+			],
+			[
+				"cak",
+				"callbacks"
+			],
+			[
+				"text",
+				"textContent"
+			],
+			[
+				"class",
+				"classList"
+			],
+			[
+				"process",
+				"processCorrect"
+			],
+			[
+				"p",
+				"pElements"
+			],
+			[
+				"booking",
+				"bookingId"
+			],
+			[
+				"bookin",
+				"bookingDetails"
+			],
+			[
+				"book",
+				"bookingDetails"
+			],
+			[
+				"submi",
+				"submitScheduleForm"
+			],
+			[
+				"subm",
+				"submitScheduleForm"
+			],
+			[
+				"Form",
+				"FormData"
+			],
+			[
+				"sub",
+				"submitScheduleForm"
+			],
+			[
+				"submit",
+				"submitStudentForm"
+			],
+			[
+				"sche",
+				"scheduleForm"
+			],
+			[
+				"schedule",
+				"scheduleForm"
+			],
+			[
+				"option",
+				"optionList"
+			],
+			[
+				"field",
+				"fieldset"
+			],
+			[
+				"json",
+				"jsonFormData"
+			],
+			[
+				"data",
+				"data_list"
+			],
+			[
+				"inline",
+				"inline-block\tdisplay"
+			],
+			[
+				"bord",
+				"border-style\tproperty"
+			],
+			[
+				"border",
+				"border-radius\tproperty"
+			],
+			[
+				"list",
+				"list-style-type\tproperty"
+			],
+			[
+				"li",
+				"list-style\tproperty"
+			],
+			[
+				"ja",
+				"javascript"
+			],
+			[
+				"test",
+				"testObj"
+			],
+			[
+				"sta",
+				"status"
+			],
+			[
+				"t",
+				"type\tAttr"
+			],
+			[
+				"la",
+				"loadend"
+			],
+			[
+				"staff_",
+				"staff_members"
+			],
+			[
+				"aler",
+				"alertString"
+			],
+			[
+				"timeout",
+				"timeoutID"
+			],
+			[
+				"timed",
+				"timedOutMessage"
+			],
+			[
+				"find",
+				"findAllStaffMembers"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"cr",
+				"createUI"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"wrap",
+				"wrapInput"
+			],
+			[
+				"value",
+				"valueChanged"
+			],
+			[
+				"fu",
+				"func"
+			],
+			[
+				"count",
+				"countryName"
+			],
+			[
+				"sle",
+				"selectedIndex"
+			],
+			[
+				"selec",
+				"selectedIndex"
+			],
+			[
+				"creat",
+				"createElement"
+			],
+			[
+				"hash",
+				"hashified"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"grid",
+				"grid-area\tproperty"
+			],
+			[
+				"grid-tem",
+				"grid-template-areas\tproperty"
+			],
+			[
+				"in",
+				"input"
+			],
+			[
+				"quer",
+				"querySelector"
+			],
+			[
+				"su",
+				"submitButton"
+			],
+			[
+				"id",
+				"idFrom"
+			],
+			[
+				"mark",
+				"markAsIncorrect"
+			],
+			[
+				"answer",
+				"answerKey"
+			],
+			[
+				"font",
+				"font-size\tproperty"
+			],
+			[
+				"marg",
+				"margin-left\tproperty"
+			],
+			[
+				"te",
+				"text-align-last\tproperty"
+			],
+			[
+				"to",
+				"toSerialize"
+			],
+			[
+				"hande",
+				"handleKeyPress"
+			],
+			[
+				"query",
+				"querySelectorAll"
+			],
+			[
+				"name",
+				"nameOf"
+			],
+			[
+				"pa",
+				"patternMismatch"
+			],
+			[
+				"valid",
+				"validity"
+			],
+			[
+				"remo",
+				"removeErrorMessage"
+			],
+			[
+				"h",
+				"handleFocus"
+			],
+			[
+				"ha",
+				"handleFocus"
+			],
+			[
+				"max",
+				"maxlength\tAttr"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "javascripts/application.js",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2391,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/adrian/launch_school/contact_manager_sinatra/contacts.rb",
+			"settings":
+			{
+				"buffer_size": 4635,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/adrian/launch_school/contact_manager_sinatra/lib/contacts.rb",
+			"settings":
+			{
+				"buffer_size": 78,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/application.css",
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 197.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Snippet: ",
+				"Snippet: html_skeleton"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 587.0
+	},
+	"console":
+	{
+		"height": 178.0,
+		"history":
+		[
+			"which htmlhint",
+			"install",
+			"htmlhint -v",
+			"htmlhint",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/adrian/launch_school/230_DOM/notes.md",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex1.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex2.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/ex3.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/ex2.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex3.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/autocomplete/public/javascripts/autocomplete.js",
+		"/home/adrian/exam/index.html",
+		"/home/adrian/exam/script.js",
+		"/home/adrian/launch_school/contact_manager_sinatra/public/javascripts/application.js",
+		"/home/adrian/launch_school/contact_manager_sinatra/public/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/exercise4.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/ex1.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/ex2.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/exercise.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/form_validation/index.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/form_validation/app.css",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/form_validation/app.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/index.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/autocomplete/views/index.erb",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/autocomplete/public/javascripts/debounce.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/cors/areas_of_continents/application.rb",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/autocomplete/debounce.js",
+		"/home/adrian/spy_rb/lib/spy/strategy/wrap",
+		"/home/adrian/spy_rb/lib/spy/errors.rb",
+		"/home/adrian/spy_rb/lib/spy/registry",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/autocomplete/test/autocomplete_test.rb",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_6/cors/request-origin/index.html",
+		"/home/adrian/Downloads/areas_of_continents/application.rb",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_5/photo_gallery2/data/photos.json",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_5/photo_gallery2/bin/www",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/guess_a_word/script.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/guess_a_word/stylesheets/game.css",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/guess_a_word/index.html",
+		"/home/adrian/chat_app/sinatra-pusher-example/Gemfile.lock",
+		"/home/adrian/chat_app/sinatra-pusher-example/Gemfile",
+		"/home/adrian/chat_app/chat.rb",
+		"/home/adrian/chat_app/sinatra-pusher-example/sinatra-pusher.rb",
+		"/home/adrian/chat_app/sinatra-pusher-example/README.md",
+		"/home/adrian/chat_app/sinatra-pusher-example/eventmachine",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/exercises/randomizer.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/dynamic_animations/index.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/dynamic_animations/script.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_1/traversing.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/problems.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/input_box.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/guessing_game.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/exercises/selection_filters.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/exercises/bold_element.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_2/exercises/reverse_engineer.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/search_filtering/index.html",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/search_filtering/javascripts/search.js",
+		"/home/adrian/launch_school/230_DOM/take_2/lesson_4/search_filtering/javascripts/products.json",
+		"/home/adrian/.bashrc",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/exercise_6.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/stylesheets/exercise_5.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/javascripts/exercise_5.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/exercise5.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/stylesheets/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/javascripts/exercise_4.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/routes/api.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/app.js",
+		"/home/adrian/launch_school/230_DOM/lesson_6/autocomplete/autocomplete.rb",
+		"/home/adrian/launch_school/230_DOM/lesson_6/autocomplete/public/javascripts/autocomplete.js",
+		"/home/adrian/launch_school/230_DOM/lesson_6/autocomplete/public/javascripts/debounce.js",
+		"/home/adrian/launch_school/230_DOM/lesson_6/autocomplete/views/index.erb",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/javascripts/exercise.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/add_staff_member.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/booking_app_node/public/ex5.html",
+		"/home/adrian/times_tables/views/layout.erb",
+		"/home/adrian/launch_school/230_DOM/lesson_6/style.css",
+		"/home/adrian/launch_school/230_DOM/lesson_6/areas_of_continents/application.rb",
+		"/home/adrian/launch_school/230_DOM/lesson_6/request-origin/index.html",
+		"/home/adrian/launch_school/230_DOM/lesson_6/script.js",
+		"/home/adrian/launch_school/230_DOM/lesson_6/index.html",
+		"/home/adrian/gem/hashify.rb",
+		"/home/adrian/launch_school/230_DOM/lesson_6/autocomplete/data/countries.json",
+		"/home/adrian/launch_school/230_DOM/lesson_6/test.md",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/multiple_choice/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/multiple_choice/reset.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/multiple_choice/script.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/multiple_choice/index.html",
+		"/home/adrian/metaprogramming/blocks/with_test.rb",
+		"/home/adrian/metaprogramming/blocks/with.rb",
+		"/home/adrian/launch_school/script.js",
+		"/home/adrian/launch_school/cdns.txt",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/form_validation_part1/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/form_validation_part1/script.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/form_validation_part1/style.css",
+		"/home/adrian/launch_school/120_OOP/lesson_2/rps_bonus_features2.rb",
+		"/home/adrian/launch_school/120_OOP/lesson_2/rps_bonus_features.rb",
+		"/home/adrian/launch_school/120_OOP/lesson_2/playground.rb",
+		"/home/adrian/launch_school/101_programming_foundations/lesson_6/tic_tac_toe_ver5.rb",
+		"/home/adrian/Downloads/launch/courses/79f17190",
+		"/home/adrian/Downloads/launch/course_catalog.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/forms/form_validation_part1/reset.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/text_editor/reset.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/text_editor/app.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/text_editor/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/text_editor/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/bug_test/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/bug_test/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/bug_test/script.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/calculator/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/calculator/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/calculator/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/stopwatch/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/stopwatch/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/stopwatch/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/calculator/reset.css",
+		"/home/adrian/times_tables/database_persistence.rb",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop_smart_select/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop_smart_select/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/car_shop/reset.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos_menu/stylesheets/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos_menu/javascripts/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos_menu/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/javascripts/app.js",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/stylesheets/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/index.html",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/stylesheets/reset.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/stylesheets/style.css",
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/javascripts/app.js"
+	],
+	"find":
+	{
+		"height": 32.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "javascripts/application.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2391,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1441,
+								1441
+							]
+						],
+						"settings":
+						{
+							"SL.27.region_keys":
+							[
+								"SL.htmltidy.Highlights.|6115fc8df5dd1bc4751053bb0459685007c1161977b10540f85465fb8e85215f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2d289cfa1fcae096714f31e141ba8e30055b28c8c8ffa4c1d1faf42744527d75|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|494cf6ec412c65b2d502378a4da2cd4b9ec48e1ad0c1c5b07cdfa5447bf26fb2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|caaf595077340af88f96fcb3282c20dd883e017d65009fcacde5d38222d56657|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f1696ec7586b4a9719297006b2f5bc2e10be7bccfb74c26cad665278e41b44f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d2b39d2ff9bb4a04ae51b2478ae540569fefbdc1833650be22a76882eb4b3ed|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6f1ebd601db460982b45b4d353be366653f5089140a120eae4cc4e9acca7bc90|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a4a9228f02a3d0ce99f3be24b910065586725f86854d5781a8605b3b8232a5f7|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1721849d66b7569f6cba726dcacc097ecb1b665ea8ece96a9ad2d22bf30f10c9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|8918f38b8d6c3b4def2e877c8ea9a9d8b21cc1751a74ae8e45288e79c6f4b4c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|444fd0a12dbbaa01d2151bde8c6adfd135c7b7386af757e52253adacbb7be956|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d46a8ca13a20067da08188e3f8947ebec71a54ba4c51a43af8240a45f40e402|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cde3595da01ac6107ab5107bf78317e8cd1292b73092f90a6a79b418333439b3|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|1290bfceb26d36bcd20e78e215cd5e9093d7be0097d96f820e91cbeaf2aa1e79|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|94eb8925e8901099190be54e314281b870786a0c815339bdd7f0f8a6fddb2b05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|970d44bcba9943533658fdb74b546a29e2c0ec5c09be1e4afcd2dc802ffa2b2f|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7904867b395c6f13841820299cb7755f98e90a55956bbfff4ea2f9c4a372ecfb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7feb0d8e3857ec4f3715111543999f57cdd2b9b228e5cb99640f1c9adb970850|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|252beaffef660028f6020dbba2281e75a58f1e5a4cfdbdc91d4d2c79d92e1995|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.89.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|7feb0d8e3857ec4f3715111543999f57cdd2b9b228e5cb99640f1c9adb970850|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|252beaffef660028f6020dbba2281e75a58f1e5a4cfdbdc91d4d2c79d92e1995|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d2b39d2ff9bb4a04ae51b2478ae540569fefbdc1833650be22a76882eb4b3ed|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6f1ebd601db460982b45b4d353be366653f5089140a120eae4cc4e9acca7bc90|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1290bfceb26d36bcd20e78e215cd5e9093d7be0097d96f820e91cbeaf2aa1e79|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2d289cfa1fcae096714f31e141ba8e30055b28c8c8ffa4c1d1faf42744527d75|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f1696ec7586b4a9719297006b2f5bc2e10be7bccfb74c26cad665278e41b44f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1721849d66b7569f6cba726dcacc097ecb1b665ea8ece96a9ad2d22bf30f10c9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|444fd0a12dbbaa01d2151bde8c6adfd135c7b7386af757e52253adacbb7be956|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|caaf595077340af88f96fcb3282c20dd883e017d65009fcacde5d38222d56657|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|8918f38b8d6c3b4def2e877c8ea9a9d8b21cc1751a74ae8e45288e79c6f4b4c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7904867b395c6f13841820299cb7755f98e90a55956bbfff4ea2f9c4a372ecfb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6115fc8df5dd1bc4751053bb0459685007c1161977b10540f85465fb8e85215f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|494cf6ec412c65b2d502378a4da2cd4b9ec48e1ad0c1c5b07cdfa5447bf26fb2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|94eb8925e8901099190be54e314281b870786a0c815339bdd7f0f8a6fddb2b05|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d46a8ca13a20067da08188e3f8947ebec71a54ba4c51a43af8240a45f40e402|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a4a9228f02a3d0ce99f3be24b910065586725f86854d5781a8605b3b8232a5f7|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|970d44bcba9943533658fdb74b546a29e2c0ec5c09be1e4afcd2dc802ffa2b2f|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cde3595da01ac6107ab5107bf78317e8cd1292b73092f90a6a79b418333439b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 692.8,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "/home/adrian/launch_school/contact_manager_sinatra/contacts.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4635,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/home/adrian/launch_school/contact_manager_sinatra/lib/contacts.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 78,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								77,
+								77
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "stylesheets/application.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"SL.90.region_keys":
+							[
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 142.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 142.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "contact_manager.sublime-project",
+	"replace":
+	{
+		"height": 59.2
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
