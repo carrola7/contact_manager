@@ -1,3 +1,16 @@
 .hidden {
   display: none;
 }
+
+label.error {
+  color: #CE444C;
+}
+
+input.error {
+  border: 1px solid #CE444C;
+}
+
+p.error {
+  color: #CE444C;
+  font-size: 10px;
+}
