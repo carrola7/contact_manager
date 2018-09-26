@@ -57,10 +57,36 @@ class Form {
 
     return JSON.stringify(json);
   }
+
+  reset() {
+    this.form.reset();
+  }
+}
+
+class Contact {
+  constructor(contact) {
+    this.id = contact.id;
+    this.full_name = contact.full_name;
+    this.email = contact.email;
+    this.phone_number = contact.phone_number;
+    this.tags = contact.tags
+    this.tagItems = this.tags.split(', ');
+  }
+
+  toJSON() {
+    return JSON.stringify({
+             id:           this.id,
+             full_name:    this.full_name,
+             email:        this.email,
+             phone_number: this.phone_number,
+             tags:         this.tags,
+           });
+  }
 }
 
 class ContactsList {
   constructor(element, templates) {
+    this.contacts = null;
     this.templates = templates;
     this.element = element;
   }
@@ -68,7 +94,7 @@ class ContactsList {
   load() {
     this.fetch()
         .then(contacts => {
-          this.contacts = contacts;
+          this.contacts = contacts.map(contact => new Contact(contact));
           this.display();
         })
         .catch(response => console.error(response));
@@ -95,13 +121,13 @@ class ContactsList {
   }
 
   alter(contactLi, contact) {
-    const holder = document.createElement('div');
-    holder.innerHTML = this.templates.contactPartial(contact);
-    contactLi.parentNode.replaceChild(holder.firstElementChild, contactLi);
+    const container = document.createElement('div');
+    container.innerHTML = this.templates.contactPartial(contact);
+    contactLi.parentNode.replaceChild(container.firstElementChild, contactLi);
   }
 
   add(contact) {
-
+    this.element.innerHTML += this.templates.contactPartial(contact);
   }
 
   remove(id) {
@@ -184,22 +210,32 @@ class App {
       form.send().then(contact => {
                     this.contactsList.update(contact);
                     this.show(this.contactsPage);
+                    form.reset();
                   })
                  .catch(response => console.error(response));
     }
   }
 
   handleClick(event) {
+    const id = event.target.getAttribute('data-id');
     switch (event.target.textContent) {
       case "Cancel":
         this.show(this.contactsPage);
         break;
       case "Edit":
-        this.renderEditForm(event.target.getAttribute('data-id'));
+        this.renderEditForm(id);
         break;
       case "Delete":
-        this.contactsList.remove(event.target.getAttribute('data-id'));
+        this.contactsList.remove(id);
         break;
+      case "Add":
+        const tagInput = event.target.parentNode.nextElementSibling.firstElementChild;
+        const tagText = event.target.previousElementSibling.querySelector('select').selectedOptions[0].value;
+        if (!tagInput.value.match(tagText)) {
+          tagInput.value += `, ${tagText}`;
+
+        }
+        //this.contactsList.addTagTo(id);
     }
   }
 

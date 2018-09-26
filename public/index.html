@@ -56,7 +56,7 @@
           </li>
           <li>
             <label for="phone">Telephone Number</label>
-            <input type="text" name="phone" id="phone" required/>
+            <input type="text" name="phone_number" id="phone" required/>
             <p class="error"></p>
           </li>
           <li>
@@ -126,7 +126,7 @@
         </li>
         <li>
           <label for="phone">Telephone Number</label>
-          <input type="text" name="phone" id="phone" value="{{phone_number}}" required/>
+          <input type="text" name="phone_number" id="phone" value="{{phone_number}}" required/>
           <p class="error"></p>
         </li>
         <li>
@@ -141,6 +141,9 @@
           </label>
           <button type="button">Add</button>
         </li>
+        <li>
+          <input type="hidden" name="tags" value="{{tags}}"/>
+          </li>
       </ul>
       <ul>
         {{#each tags}}
