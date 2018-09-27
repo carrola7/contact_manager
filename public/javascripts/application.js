@@ -65,22 +65,12 @@ class Form {
 
 class Contact {
   constructor(contact) {
-    this.id = contact.id;
-    this.full_name = contact.full_name;
-    this.email = contact.email;
+    this.id           = contact.id;
+    this.full_name    = contact.full_name;
+    this.email        = contact.email;
     this.phone_number = contact.phone_number;
-    this.tags = contact.tags
-    this.tagItems = this.tags.split(', ');
-  }
-
-  toJSON() {
-    return JSON.stringify({
-             id:           this.id,
-             full_name:    this.full_name,
-             email:        this.email,
-             phone_number: this.phone_number,
-             tags:         this.tags,
-           });
+    this.tags         = contact.tags
+    this.tagList      = this.tags ? this.tags.split(',') : null;
   }
 }
 
@@ -126,8 +116,19 @@ class ContactsList {
     contactLi.parentNode.replaceChild(container.firstElementChild, contactLi);
   }
 
+  filter(tag, search) {
+    this.element.querySelectorAll('li.contact').forEach(contact => {
+      if (contact.getAttribute('data-tags').match(tag) &&
+         contact.getAttribute('data-name').match(search)) {
+           contact.classList.remove('hidden');
+      } else {
+        contact.classList.add('hidden');
+      }
+    });
+  }
+
   add(contact) {
-    this.element.innerHTML += this.templates.contactPartial(contact);
+    this.element.innerHTML += this.templates.contactPartial(new Contact(contact));
   }
 
   remove(id) {
@@ -165,8 +166,12 @@ class App {
     this.addContactPage  = document.getElementById('add_contact_page');
     this.editContactPage = document.getElementById('edit_contact_page');
     this.addContactBtn   = document.getElementById('add_contact');
+    this.tagSearch       = document.getElementById('tag_search');
+    this.search          = document.getElementById('search');
     this.addContactsForm = document.getElementById('add_contact_form');
     this.templates = this.createTemplates();
+    this.searchFilter = "";
+    this.tagFilter = "";
     this.registerPartials();
     this.contactsList = new ContactsList(document.getElementById('contacts_list'), this.templates);
     this.contactsList.load()
@@ -190,6 +195,7 @@ class App {
 
   bind() {
     this.addContactBtn.onclick = this.show.bind(this, this.addContactPage);
+    this.tagSearch.onchange = this.handleTagSearch.bind(this);
     document.onsubmit = this.handleFormSubmit.bind(this);
     document.onclick = this.handleClick.bind(this);
   }
@@ -201,6 +207,11 @@ class App {
     $visible.slideUp();
   }
 
+  handleTagSearch(event) {
+    this.tagFilter = event.target.selectedOptions[0].value;
+    this.contactsList.filter(this.tagFilter, this.searchFilter);
+  }
+
   handleFormSubmit(event) {
     event.preventDefault();
     const formElement = event.target;
@@ -208,6 +219,7 @@ class App {
     form.validate();
     if (form.isvalid()) {
       form.send().then(contact => {
+                    contact = new Contact(contact)
                     this.contactsList.update(contact);
                     this.show(this.contactsPage);
                     form.reset();
@@ -217,6 +229,15 @@ class App {
   }
 
   handleClick(event) {
+    if (event.target.tagName === "BUTTON") {
+      this.handleButtonClick(event);
+    } else if (event.target.tagName === "A") {
+      this.handleAnchorClick(event);
+    }
+    
+  }
+
+  handleButtonClick(event) {
     const id = event.target.getAttribute('data-id');
     switch (event.target.textContent) {
       case "Cancel":
@@ -226,25 +247,35 @@ class App {
         this.renderEditForm(id);
         break;
       case "Delete":
-        this.contactsList.remove(id);
+        this.deleteContact(id)
         break;
       case "Add":
-        const tagInput = event.target.parentNode.nextElementSibling.firstElementChild;
-        const tagText = event.target.previousElementSibling.querySelector('select').selectedOptions[0].value;
-        if (!tagInput.value.match(tagText)) {
-          tagInput.value += `, ${tagText}`;
-
-        }
-        //this.contactsList.addTagTo(id);
+        this.addTag(event);
     }
+  }
+
+  handleAnchorClick(event) {
+    if (event.target.textContent === "+") {
+      event.preventDefault();
+      this.removeTag(event);
+    }
+
   }
 
   renderEditForm(id) {
     this.fetchContact(id).then(contact => {
+      contact = new Contact(contact);
       const html = this.templates.contact_form(contact);
       this.editContactPage.innerHTML = html;
       this.show(this.editContactPage);
     });
+  }
+
+  deleteContact(id) {
+    let ask = confirm("Are you sure you want to delete the contact?");
+    if (ask) {
+      this.contactsList.remove(id);
+    }
   }
 
   fetchContact(id) {
@@ -255,6 +286,46 @@ class App {
       xhr.onload = () => resolve(xhr.response);
       xhr.send();
     });
+  }
+
+  addTag(event) {
+    let tagInputElement, tagList, page 
+    [tagInputElement, tagList, page] = this.getTagInfo(event);
+
+    const tagText = page.querySelector('select')
+                        .selectedOptions[0].value;
+
+    if (!tagInputElement.value.match(tagText)) {
+      if (tagInputElement.value) {
+        tagInputElement.value += `,${tagText}`;
+      } else {
+        tagInputElement.value += `${tagText}`;
+      }
+      tagList.innerHTML += this.templates.tagPartial(tagText);
+    }
+  }
+
+  removeTag(event) {
+    let tagInputElement, tagList, page 
+    [tagInputElement, tagList, page] = this.getTagInfo(event);
+
+    const tagText = event.target.getAttribute('data-tag');
+
+    tagInputElement.value = tagInputElement.value.split(',')
+                                                 .filter(tag => tag !== tagText)
+                                                 .join(',');
+
+    tagList.querySelector(`li[data-name="${tagText}"]`).remove();
+  }
+
+  getTagInfo(event) {
+    const page = $(event.target).closest('div.page')[0];
+
+    return [
+      page.querySelector('input[type="hidden"]'),
+      page.querySelector('ul.tags_list'),
+      page
+    ]
   }
 
 }

@@ -23,7 +23,7 @@
             <button id="add_contact">Add Contact</button>
           </li>
           <li>
-            <select>
+            <select id="tag_search">
               <option value="">--Filter by Tag--</option>
               <option value="friends">Friends</option>
               <option value="family">Family</option>
@@ -72,8 +72,10 @@
             <button type="button">Add</button>
           </li>
           <li>
-            <input type="hidden" name="tags" value="work"/>
+            <input type="hidden" name="tags" value=""/>
           </li>
+        </ul>
+        <ul class="tags_list">
         </ul>
         <button type="submit">Submit</button>
         <button type="button">Cancel</button>
@@ -85,7 +87,7 @@
   <footer>
   </footer>
     <script id="contactPartial" data-type="partial" type="text/x-handlebars">
-    <li class="contact" data-tags={{tags}} data-id="{{id}}">
+    <li class="contact" data-id="{{id}}" data-name="{{full_name}}" data-tags="{{tags}}">
       <h3>{{full_name}}</h3>
       <dl>
         <dt>Phone Number</dt>
@@ -103,12 +105,24 @@
           <button data-type="delete" data-id="{{id}}">Delete</button>
         </li>
       </ul>
+      <ul class="tags_list">
+        {{#each tagList}}
+          <li><p>{{.}}</p></li>
+        {{/each}}
+      </ul>
     </li>
   </script>
   <script id="contact_template" type="text/x-handlebars">
     {{#each contacts}}
       {{> contactPartial}}
     {{/each}}
+  </script>
+  <script id="tagPartial" data-type="partial" type="text/x-handlebars">
+    <li data-name="{{.}}">
+      <p>
+        {{.}}<a data-tag="{{.}}" data-id="{{id}}" href="#">+</a>
+      </p>
+    </li>
   </script>
   <script id="contact_form" type="text/x-handlebars">
     <h4>Edit Contact</h4>
@@ -145,9 +159,9 @@
           <input type="hidden" name="tags" value="{{tags}}"/>
           </li>
       </ul>
-      <ul>
-        {{#each tags}}
-          <li><p class="tag">{{.}}</p></li>
+      <ul class="tags_list">
+        {{#each tagList}}
+          {{> tagPartial}}
         {{/each}}
       </ul>
       <button type="submit">Submit</button>
