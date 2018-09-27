@@ -116,15 +116,18 @@ class ContactsList {
     contactLi.parentNode.replaceChild(container.firstElementChild, contactLi);
   }
 
-  filter(tag, search) {
+  filter(tag, searchTerm) {
+    const regex = new RegExp('\\b' + searchTerm, 'i');
     this.element.querySelectorAll('li.contact').forEach(contact => {
-      if (contact.getAttribute('data-tags').match(tag) &&
-         contact.getAttribute('data-name').match(search)) {
-           contact.classList.remove('hidden');
-      } else {
-        contact.classList.add('hidden');
-      }
+      let toBeVisible = contact.getAttribute('data-tags').match(tag) &&
+                      this.isNameMatching(contact.getAttribute('data-name'), regex);
+
+      contact.classList.toggle('hidden', !toBeVisible);
     });
+  }
+
+  isNameMatching(fullName, regex) {
+    return fullName.split(' ').some(name => name.match(regex));
   }
 
   add(contact) {
@@ -167,14 +170,16 @@ class App {
     this.editContactPage = document.getElementById('edit_contact_page');
     this.addContactBtn   = document.getElementById('add_contact');
     this.tagSearch       = document.getElementById('tag_search');
-    this.search          = document.getElementById('search');
+    this.searchField     = document.getElementById('search');
     this.addContactsForm = document.getElementById('add_contact_form');
-    this.templates = this.createTemplates();
+    
     this.searchFilter = "";
     this.tagFilter = "";
+    this.templates = this.createTemplates();
     this.registerPartials();
+
     this.contactsList = new ContactsList(document.getElementById('contacts_list'), this.templates);
-    this.contactsList.load()
+    this.contactsList.load();
     this.bind();
   }
 
@@ -196,6 +201,7 @@ class App {
   bind() {
     this.addContactBtn.onclick = this.show.bind(this, this.addContactPage);
     this.tagSearch.onchange = this.handleTagSearch.bind(this);
+    this.searchField.onkeyup = this.handleSearchInput.bind(this);
     document.onsubmit = this.handleFormSubmit.bind(this);
     document.onclick = this.handleClick.bind(this);
   }
@@ -209,6 +215,11 @@ class App {
 
   handleTagSearch(event) {
     this.tagFilter = event.target.selectedOptions[0].value;
+    this.contactsList.filter(this.tagFilter, this.searchFilter);
+  }
+
+  handleSearchInput(event) {
+    this.searchFilter = event.target.value;
     this.contactsList.filter(this.tagFilter, this.searchFilter);
   }
 
@@ -278,16 +289,6 @@ class App {
     }
   }
 
-  fetchContact(id) {
-    return new Promise(resolve => {
-      const xhr = new XMLHttpRequest();
-      xhr.open('GET', "api/contacts/" + id);
-      xhr.responseType = 'json';
-      xhr.onload = () => resolve(xhr.response);
-      xhr.send();
-    });
-  }
-
   addTag(event) {
     let tagInputElement, tagList, page 
     [tagInputElement, tagList, page] = this.getTagInfo(event);
@@ -296,18 +297,13 @@ class App {
                         .selectedOptions[0].value;
 
     if (!tagInputElement.value.match(tagText)) {
-      if (tagInputElement.value) {
-        tagInputElement.value += `,${tagText}`;
-      } else {
-        tagInputElement.value += `${tagText}`;
-      }
+      tagInputElement.value += tagInputElement.value ? `,${tagText}` : tagText;
       tagList.innerHTML += this.templates.tagPartial(tagText);
     }
   }
 
   removeTag(event) {
-    let tagInputElement, tagList, page 
-    [tagInputElement, tagList, page] = this.getTagInfo(event);
+    const [tagInputElement, tagList, page] = this.getTagInfo(event);
 
     const tagText = event.target.getAttribute('data-tag');
 
@@ -316,6 +312,16 @@ class App {
                                                  .join(',');
 
     tagList.querySelector(`li[data-name="${tagText}"]`).remove();
+  }
+
+  fetchContact(id) {
+    return new Promise(resolve => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('GET', "api/contacts/" + id);
+      xhr.responseType = 'json';
+      xhr.onload = () => resolve(xhr.response);
+      xhr.send();
+    });
   }
 
   getTagInfo(event) {
@@ -327,7 +333,6 @@ class App {
       page
     ]
   }
-
 }
 
 var app;
