@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
   <script type="text/javascript" src="/javascripts/jquery.js"></script>
   <script type="text/javascript" src="/javascripts/handlebars.js"></script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
@@ -41,25 +42,31 @@
       </ul>
     </div>
     <div id="add_contact_page" class="hidden page">
-      <h4>Add Contact</h4>
+      <h2>Create Contact</h2>
       <form id="add_contact_form" method="POST" action="/api/contacts" novalidate>
         <ul>
-          <li>
-            <label for="name">Full Name</label>
-            <input type="text" name="full_name" id="name" required />
+          <li class="text_field">
+            <dl>
+              <dt><label for="name">Full Name:</label></dt>
+              <dd><input type="text" name="full_name" id="name" required /></dd>
+            </dl>
             <p class="error"></p>
           </li>
-          <li>
-            <label for="email">Email Address</label>
-            <input type="text" name="email" id="email" required pattern=".+@.*"/>
+          <li class="text_field">
+            <dl>
+              <dt><label for="email">Email Address:</label></dt>
+              <dd><input type="text" name="email" id="email" required pattern=".+@.*"/></dd>
+            </dl>
             <p class="error"></p>
           </li>
-          <li>
-            <label for="phone">Telephone Number</label>
-            <input type="text" name="phone_number" id="phone" required/>
+          <li class="text_field">
+            <dl>
+              <dt><label for="phone">Telephone Number:</label></dt>
+              <dd><input type="text" name="phone_number" id="phone" required/></dd>
+            </dl>
             <p class="error"></p>
           </li>
-          <li>
+          <li class="tag_buttons">
             <label for="tag">
               <select id="tag">
                 <option value="">--Add a Tag--</option>
@@ -77,8 +84,10 @@
         </ul>
         <ul class="tags_list">
         </ul>
-        <button type="submit">Submit</button>
-        <button type="button">Cancel</button>
+        <ul class="form_control">
+          <button type="submit">Submit</button>
+          <button type="button">Cancel</button>
+        </ul>
       </form>
     </div>
     <div id="edit_contact_page" class="hidden page">
@@ -90,24 +99,24 @@
     <li class="contact" data-id="{{id}}" data-name="{{full_name}}" data-tags="{{tags}}">
       <h3>{{full_name}}</h3>
       <dl>
-        <dt>Phone Number</dt>
+        <dt>Phone Number:</dt>
         <dd>{{phone_number}}</dd>
       </dl>
       <dl>
-        <dt>Email</dt>
+        <dt>Email:</dt>
         <dd>{{email}}</dd>
       </dl>
       <ul>
         <li>
-          <button data-type="edit" data-id="{{id}}">Edit</button>
+          <button data-type="edit" data-id="{{id}}"><i class="fas fa-pen"></i>Edit</button>
         </li>
         <li>
-          <button data-type="delete" data-id="{{id}}">Delete</button>
+          <button data-type="delete" data-id="{{id}}"><i class="far fa-trash-alt"></i>Delete</button>
         </li>
       </ul>
       <ul class="tags_list">
         {{#each tagList}}
-          <li><p>{{.}}</p></li>
+          <li><p class="tag">{{.}}</p></li>
         {{/each}}
       </ul>
     </li>
@@ -119,34 +128,40 @@
   </script>
   <script id="tagPartial" data-type="partial" type="text/x-handlebars">
     <li data-name="{{.}}">
-      <p>
-        {{.}}<a data-tag="{{.}}" data-id="{{id}}" href="#">+</a>
+      <p class="tag delete">
+        {{.}}<span data-tag="{{.}}" data-id="{{id}}" class="fas fa-trash-alt"></span>
       </p>
     </li>
   </script>
   <script id="contact_form" type="text/x-handlebars">
-    <h4>Edit Contact</h4>
+    <h2>Edit Contact</h2>
     <form method="PUT" action="/api/contacts/{{id}}" novalidate>
       <ul>
-        <li>
-          <label for="name">Full Name</label>
-          <input type="text" name="full_name" id="name" value="{{full_name}}" required/>
+        <li class="text_field">
+          <dl>
+            <dt><label for="name">Full Name:</label></dt>
+            <dd><input type="text" name="full_name" id="name" value="{{full_name}}" required/></dd>
+          </dl>
           <p class="error"></p>
         </li>
-        <li>
-          <label for="email">Email Address</label>
-          <input type="text" name="email" id="email" value="{{email}}" required pattern=".+@.*"/>
+        <li class="text_field">
+          <dl>
+            <dt><label for="email">Email Address:</label></dt>
+            <dd><input type="text" name="email" id="email" value="{{email}}" required pattern=".+@.*"/></dd>
+          </dl>
           <p class="error"></p>
         </li>
-        <li>
-          <label for="phone">Telephone Number</label>
-          <input type="text" name="phone_number" id="phone" value="{{phone_number}}" required/>
+        <li class="text_field">
+          <dl>
+            <dt><label for="phone">Telephone Number:</label></dt>
+            <dd><input type="text" name="phone_number" id="phone" value="{{phone_number}}" required/></dd>
+          </dl>
           <p class="error"></p>
         </li>
-        <li>
+        <li class="tag_buttons">
           <label for="tag">
             <select id="tag" name="tag">
-              <option value="">--Add a Tag--</option>
+              <option value="">--Choose a Tag--</option>
               <option value="friends">Friends</option>
               <option value="family">Family</option>
               <option value="work">Work</option>
@@ -164,8 +179,10 @@
           {{> tagPartial}}
         {{/each}}
       </ul>
-      <button type="submit">Submit</button>
-      <button type="button">Cancel</button>
+      <ul class="form_control">
+        <button type="submit">Submit</button>
+        <button type="button">Cancel</button>
+      </ul>
     </form>
   </script>
 </body>

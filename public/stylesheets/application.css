@@ -1,3 +1,10 @@
+@import url("/stylesheets/whitespace-reset.css");
+
+html { 
+  font-size: 14px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+
 .hidden {
   display: none;
 }
@@ -6,11 +13,289 @@ label.error {
   color: #CE444C;
 }
 
-input.error {
+li.text_field input.error {
   border: 1px solid #CE444C;
 }
 
 p.error {
   color: #CE444C;
   font-size: 10px;
+}
+
+header {
+  background: linear-gradient(#5A417A, #725595);
+  padding: 1.3rem;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+}
+
+h1, h2, h4 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 500;
+  color: #FFF;
+  padding: 0.5rem;
+}
+
+h4 {
+  font-size: 1.3rem;
+  color: #CFBEE1;
+  font-weight: 500;
+  padding: 0.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-top: 40px;
+  border-bottom: 1px solid #E4E4E4;
+  padding-bottom: 10px;
+}
+
+nav {
+  background-color: #F5F5F5;
+  border-radius: 5px;
+  border: 1px solid #E4E4E4;
+  padding: 1.2rem;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+button, select {
+  border: 1px solid #5F4579;
+  color: #5F4579;
+  border-radius: 4px;
+  background-color: transparent;
+  padding: 0.5rem 0.8rem;
+}
+
+button:hover {
+  background-color: #5F4579;
+  cursor: pointer;
+  color: #FFF;
+}
+
+select:hover {
+  cursor: pointer;
+}
+
+#add_contact {
+  font-size: 1.2rem;
+  padding: 0.8rem;
+}
+
+input[type="text"] {
+  border-radius: 4px;
+  border: 1px solid #D4CBCB;  /*gray*/
+  padding: 0.5rem;
+  transition: border-color 0.5s, box-shadow 0.5s;
+}
+
+input[type="text"]:focus {
+  border-color: #66afe9;
+  outline: 0;
+  box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+
+select:focus {
+  outline: 0;
+}
+
+li.contact {
+  width: 260px;
+  border-bottom: 1px solid #E4E4E4;
+  margin: 30px 15px;
+}
+
+ul#contacts_list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+li.contact h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+li.contact dt {
+  font-weight: bold;
+}
+
+li.contact dt, li.contact dd {
+  font-size: 0.9rem;
+  margin: 4px 0;
+}
+
+li.contact ul, ul.tags_list {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+li.contact ul:first-of-type {
+  margin: 20px 0;
+}
+
+li.contact ul:first-of-type button{
+  margin-right: 1.5rem;
+}
+
+ul.tags_list p {
+  margin-right: 10px;
+}
+
+i {
+  margin-right: 0.5rem;
+}
+
+li.tag_buttons {
+  margin: 0 0 10px 23%;
+}
+
+li.tag_buttons button {
+  margin-left: 20px;
+}
+
+form ul.tags_list {
+  margin-left: 23%;
+}
+
+button.form_control:first-of-type {
+  margin: 0 20px 0 23%;
+}
+
+button.form_control {
+  width: 240px;
+  padding: 0.8rem 0;
+}
+
+p.tag {
+  border: 1px solid #5B427C;
+  background-color: #F5F5F5;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  padding: 0.2rem;
+}
+
+p.delete {
+ padding: 0.2rem 1.5rem 0.2rem 0.2rem; 
+}
+
+p.tag span {
+  position: absolute;
+  border-radius: 100%;
+  color: #6A4D85;
+  margin-left: 5px;
+}
+
+p.tag span:hover {
+  margin-top: -6px;
+  margin-left: -0.5px;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+div.rotated {
+  font-size: 1rem;
+  transform: rotate(45deg);
+  display: inline-block;
+}
+
+li.text_field {
+  margin: 20px 0;
+}
+
+li.text_field input {
+  width: 100%;
+}
+
+li.text_field dl {
+  display: flex;
+}
+
+li.text_field dt {
+  width: 20%;
+}
+
+li.text_field label {
+  float: right;
+  font-weight: bold;
+  font-size: 0.9rem;
+  margin-top: 5px;
+}
+
+li.text_field dd {
+  margin-left: 20px;
+  width: 65%;
+}
+
+p.error {
+  margin-left: 23%;
+  font-size: 0.9rem;
+}
+
+ul.form_control {
+  margin-left: 23%;
+  margin-top: 20px;
+}
+
+ul.form_control button {
+  width: 40%;
+  margin-right: 20px;
+  padding: 0.8rem 0;
+}
+
+@media (max-width: 1700px) {
+  ul#contacts_list {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  main {
+    width: 80%;
+  }
+}
+
+@media (max-width: 1200px) {
+  ul#contacts_list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  ul#contacts_list {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  main {
+    width: 100%;
+  }
+}
+
+@media (max-width: 645px) {
+  ul#contacts_list {
+    grid-template-columns: 1fr;
+  }
+
+  nav ul {
+    display: block;
+  }
+
+  nav ul li {
+    margin: 20px 0;
+    text-align: center;
+  }
 }

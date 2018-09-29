@@ -21,9 +21,11 @@ class Form {
   }
 
   updateInputError(input, errorText) {
-    input.nextElementSibling.textContent = errorText;
+    const p = input.parentNode.parentNode.nextElementSibling;
+    const label = input.parentNode.previousElementSibling.firstElementChild;
+    p.textContent = errorText;
     input.classList.add('error');
-    input.previousElementSibling.classList.add('error');
+    label.classList.add('error');
   }
 
   isvalid() {
@@ -242,8 +244,8 @@ class App {
   handleClick(event) {
     if (event.target.tagName === "BUTTON") {
       this.handleButtonClick(event);
-    } else if (event.target.tagName === "A") {
-      this.handleAnchorClick(event);
+    } else if (event.target.tagName === "SPAN") {
+      this.handleSpanClick(event);
     }
     
   }
@@ -265,8 +267,8 @@ class App {
     }
   }
 
-  handleAnchorClick(event) {
-    if (event.target.textContent === "+") {
+  handleSpanClick(event) {
+    if (event.target.className.includes("trash")) {
       event.preventDefault();
       this.removeTag(event);
     }
