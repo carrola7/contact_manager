@@ -7,9 +7,11 @@
   <title>Document</title>
   <link rel="stylesheet" type="text/css" href="/stylesheets/application.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+  <link rel="stylesheet" href="/javascripts/jquery-ui-1.12.1.custom/jquery-ui.css">
   <script type="text/javascript" src="/javascripts/jquery.js"></script>
   <script type="text/javascript" src="/javascripts/handlebars.js"></script>
   <script type="text/javascript" src="/javascripts/application.js"></script>
+  <script src="/javascripts/jquery-ui-1.12.1.custom/jquery-ui.min.js"></script>
 </head>
 <body>
   <header>
@@ -17,7 +19,7 @@
     <h4>Using Sinatra, Active Record, jQuery and Handlebars</h4>
   </header>
   <main>
-    <div class="page" id="contacts_page">
+    <div class="page hidden" id="contacts_page">
       <nav>
         <ul>
           <li>
@@ -30,6 +32,7 @@
               <option value="family">Family</option>
               <option value="work">Work</option>
               <option value="business">Business</option>
+              <option value="sport">Sport</option>
             </select>
           </li>
           <li>
@@ -40,6 +43,9 @@
       <ul id="contacts_list">
 
       </ul>
+      <p id="no_contacts">
+          There are no contacts to display!
+      </p>
     </div>
     <div id="add_contact_page" class="hidden page">
       <h2>Create Contact</h2>
@@ -74,6 +80,7 @@
                 <option value="family">Family</option>
                 <option value="work">Work</option>
                 <option value="business">Business</option>
+                <option value="sport">Sport</option>
               </select>
             </label>
             <button type="button">Add</button>
@@ -94,6 +101,7 @@
     </div>
   </main>
   <footer>
+    Developed by Adrian Carroll and the <a href="https://www.launchschool.com">Launch School</a> team
   </footer>
     <script id="contactPartial" data-type="partial" type="text/x-handlebars">
     <li class="contact" data-id="{{id}}" data-name="{{full_name}}" data-tags="{{tags}}">
@@ -166,6 +174,7 @@
               <option value="family">Family</option>
               <option value="work">Work</option>
               <option value="business">Business</option>
+              <option value="sport">Sport</option>
             </select>
           </label>
           <button type="button">Add</button>

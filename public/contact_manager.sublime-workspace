@@ -4,6 +4,186 @@
 		"selected_items":
 		[
 			[
+				"margin",
+				"margin-top\tproperty"
+			],
+			[
+				"space",
+				"space-between\tjustify-content"
+			],
+			[
+				"query",
+				"querySelector"
+			],
+			[
+				"reset",
+				"resetForms"
+			],
+			[
+				"spa",
+				"space-between\tjustify-content"
+			],
+			[
+				"padding",
+				"padding-bottom\tproperty"
+			],
+			[
+				"font",
+				"font-weight\tproperty"
+			],
+			[
+				"text",
+				"text-align\tproperty"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"box",
+				"box-sizing\tproperty"
+			],
+			[
+				"border-co",
+				"border-color\tproperty"
+			],
+			[
+				"border-bott",
+				"border-bottom-color\tproperty"
+			],
+			[
+				"grid-templ",
+				"grid-template-columns\tproperty"
+			],
+			[
+				"n",
+				"transparent\tbackground-color"
+			],
+			[
+				"backg",
+				"background-color\tproperty"
+			],
+			[
+				"back",
+				"background-color\tproperty"
+			],
+			[
+				"is",
+				"isVisible"
+			],
+			[
+				"sear",
+				"searchTerm"
+			],
+			[
+				"hanld",
+				"handleSearchInput"
+			],
+			[
+				"get",
+				"getAttribute"
+			],
+			[
+				"search",
+				"searchFilter"
+			],
+			[
+				"delete",
+				"deleteContact"
+			],
+			[
+				"tag",
+				"tagInputElement"
+			],
+			[
+				"remove",
+				"removeTag"
+			],
+			[
+				"hanle",
+				"handleAnchorClick"
+			],
+			[
+				"handle",
+				"handleButtonClick"
+			],
+			[
+				"updtae",
+				"updateTags"
+			],
+			[
+				"add",
+				"addTagTo"
+			],
+			[
+				"String",
+				"stringify"
+			],
+			[
+				"Json",
+				"JSON"
+			],
+			[
+				"con",
+				"contactLi"
+			],
+			[
+				"ad",
+				"addContactPage"
+			],
+			[
+				"response",
+				"responseText"
+			],
+			[
+				"data",
+				"data-id"
+			],
+			[
+				"edi",
+				"editContactPage"
+			],
+			[
+				"fetch",
+				"fetchContact"
+			],
+			[
+				"tem",
+				"templates"
+			],
+			[
+				"contact",
+				"contactsList"
+			],
+			[
+				"res",
+				"resolve"
+			],
+			[
+				"form",
+				"FormData"
+			],
+			[
+				"col",
+				"color\tproperty"
+			],
+			[
+				"cLASS",
+				"classList"
+			],
+			[
+				"er",
+				"errorText"
+			],
+			[
+				"edit",
+				"edit_contact_form"
+			],
+			[
+				"const",
+				"constructor"
+			],
+			[
 				"cre",
 				"createFullName"
 			],
@@ -14,18 +194,6 @@
 			[
 				"java",
 				"javascripts"
-			],
-			[
-				"add",
-				"addEventListener"
-			],
-			[
-				"get",
-				"getSpanText"
-			],
-			[
-				"res",
-				"resolve"
 			],
 			[
 				"staff",
@@ -48,20 +216,12 @@
 				"retrieveSchedules"
 			],
 			[
-				"form",
-				"formData"
-			],
-			[
 				"ch",
 				"checkValidity"
 			],
 			[
 				"hand",
 				"handleKeyUp"
-			],
-			[
-				"handle",
-				"handlePhoneBlur"
 			],
 			[
 				"handl",
@@ -116,10 +276,6 @@
 				"updateText"
 			],
 			[
-				"hanld",
-				"handleLikeClick"
-			],
-			[
 				"handleClick",
 				"handleClickPrev"
 			],
@@ -152,14 +308,6 @@
 				"postPartialsource"
 			],
 			[
-				"tag",
-				"tagPartial"
-			],
-			[
-				"is",
-				"isGameLost"
-			],
-			[
 				"check",
 				"checkForLoser"
 			],
@@ -176,10 +324,6 @@
 				"keyPressed"
 			],
 			[
-				"reset",
-				"resetWord"
-			],
-			[
 				"dis",
 				"displayGuesses"
 			],
@@ -190,10 +334,6 @@
 			[
 				"han",
 				"handleStartStop"
-			],
-			[
-				"back",
-				"background-color"
 			],
 			[
 				"gma",
@@ -238,10 +378,6 @@
 			[
 				"cak",
 				"callbacks"
-			],
-			[
-				"text",
-				"textContent"
 			],
 			[
 				"class",
@@ -306,10 +442,6 @@
 			[
 				"json",
 				"jsonFormData"
-			],
-			[
-				"data",
-				"data_list"
 			],
 			[
 				"inline",
@@ -382,138 +514,6 @@
 			[
 				"cr",
 				"createUI"
-			],
-			[
-				"pr",
-				"prototype"
-			],
-			[
-				"wrap",
-				"wrapInput"
-			],
-			[
-				"value",
-				"valueChanged"
-			],
-			[
-				"fu",
-				"func"
-			],
-			[
-				"count",
-				"countryName"
-			],
-			[
-				"sle",
-				"selectedIndex"
-			],
-			[
-				"selec",
-				"selectedIndex"
-			],
-			[
-				"creat",
-				"createElement"
-			],
-			[
-				"hash",
-				"hashified"
-			],
-			[
-				"ma",
-				"margin-top\tproperty"
-			],
-			[
-				"margin",
-				"margin-top\tproperty"
-			],
-			[
-				"min",
-				"min-height\tproperty"
-			],
-			[
-				"grid",
-				"grid-area\tproperty"
-			],
-			[
-				"grid-tem",
-				"grid-template-areas\tproperty"
-			],
-			[
-				"in",
-				"input"
-			],
-			[
-				"quer",
-				"querySelector"
-			],
-			[
-				"su",
-				"submitButton"
-			],
-			[
-				"id",
-				"idFrom"
-			],
-			[
-				"mark",
-				"markAsIncorrect"
-			],
-			[
-				"answer",
-				"answerKey"
-			],
-			[
-				"font",
-				"font-size\tproperty"
-			],
-			[
-				"marg",
-				"margin-left\tproperty"
-			],
-			[
-				"te",
-				"text-align-last\tproperty"
-			],
-			[
-				"to",
-				"toSerialize"
-			],
-			[
-				"hande",
-				"handleKeyPress"
-			],
-			[
-				"query",
-				"querySelectorAll"
-			],
-			[
-				"name",
-				"nameOf"
-			],
-			[
-				"pa",
-				"patternMismatch"
-			],
-			[
-				"valid",
-				"validity"
-			],
-			[
-				"remo",
-				"removeErrorMessage"
-			],
-			[
-				"h",
-				"handleFocus"
-			],
-			[
-				"ha",
-				"handleFocus"
-			],
-			[
-				"max",
-				"maxlength\tAttr"
 			]
 		]
 	},
@@ -523,7 +523,8 @@
 			"file": "javascripts/application.js",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 9583,
+				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
 		},
@@ -531,7 +532,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 2391,
+				"buffer_size": 6571,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
 			}
@@ -556,9 +557,27 @@
 			"file": "stylesheets/application.css",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 4200,
 				"encoding": "UTF-8",
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/home/adrian/launch_school/contact_manager_sinatra/Rakefile",
+			"settings":
+			{
+				"buffer_size": 130,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stylesheets/whitespace-reset.css",
+			"settings":
+			{
+				"buffer_size": 845,
+				"encoding": "UTF-8",
+				"line_ending": "Unix",
+				"name": "/*"
 			}
 		}
 	],
@@ -607,6 +626,10 @@
 	},
 	"file_history":
 	[
+		"/home/adrian/launch_school/contact_manager_sinatra/db/schema.rb",
+		"/home/adrian/launch_school/contact_manager_sinatra/db/seeds.rb",
+		"/home/adrian/launch_school/contact_manager_sinatra/db/migrate/schema.rb",
+		"/home/adrian/launch_school/contact_manager_sinatra/db/migrate/20171106192927_create_contacts.rb",
 		"/home/adrian/launch_school/230_DOM/notes.md",
 		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex1.js",
 		"/home/adrian/launch_school/230_DOM/take_2/lesson_7/booking_app_node/public/javascripts/ex2.js",
@@ -730,11 +753,7 @@
 		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos_menu/index.html",
 		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/javascripts/app.js",
 		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/stylesheets/style.css",
-		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/index.html",
-		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/index.html",
-		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/stylesheets/reset.css",
-		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/stylesheets/style.css",
-		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/programming_languages/javascripts/app.js"
+		"/home/adrian/launch_school/launch_school_exercises/230_dom/gui_apps/todos/index.html"
 	],
 	"find":
 	{
@@ -752,6 +771,36 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"class=\"form_control\"",
+			"220",
+			"handleAnchorClick",
+			"div",
+			"span",
+			"#;",
+			"5F5F5",
+			"grey",
+			"715493",
+			"Search",
+			"search",
+			"addContactsForm",
+			"search",
+			"tagSearch",
+			"addContactBtn",
+			"editContactPage",
+			"addContactPage",
+			"contactsPage",
+			"searchFilter",
+			"this.editContactPage",
+			"tagInput",
+			"update",
+			"tagItems",
+			"event.target.getAttribute('data-id')",
+			"send",
+			"holder",
+			"full_name",
+			"createPhoneNumber",
+			"createEmail",
+			"createFullName"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -769,7 +818,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -778,26 +827,32 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 9583,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2724,
+								2724
 							]
 						],
 						"settings":
 						{
+							"SL.13.region_keys":
+							[
+							],
+							"SL.24.region_keys":
+							[
+							],
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1202.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -806,44 +861,230 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2391,
+						"buffer_size": 6571,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1441,
-								1441
+								3503,
+								3503
 							]
 						],
 						"settings":
 						{
+							"SL.14.region_keys":
+							[
+								"SL.htmltidy.Highlights.|d749966286a0ef2eb64068facdae1b69145697fe65de7d84c444029633341e5c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a1a145701d02e787494c564519e6ca72031c93910931e2aaf5b9e5858f53b312|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|45b9ef98c59e17e66335f4e6746d2c0f4518b847486424bb51d321fd0f6f5aee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|ef8e0cd9132086993943a014d784bf066ddb3f3922b686315c83836596d980a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|608ca6fe16c150cf1c269a4bd57a8855d0e95f06e286f36f2fc3d23efc189880|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|b5f1d3c5b15b72ce72a9b46a0108f982afc5a3d778c2413d48ffc4002d814606|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|bc3510ce888ab3d1558d126baf1d9ab2fa2e1e923a72eaeaf5624ea6858b98ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|28c40be9f37520b206f2548481d2877a3378841e8159822e3d038abee89c177c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|dc0f7d726aff40818c4eb84bf219d2b8ab106ac36705ee501a2d83f1f44d81dc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0f325a639a381abc323397c7dbe7fea0f5a7b2bf3f527f09796e19871b441bdf|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|141316ebcdaa55f6a87b8e025f0c7865c76370598ad601cd5a3c3e7ccb2d671d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|831910ad00f64a10b52005d6fb91d48fcfc3c3fec0b1d232292c484ca84cd47c|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|d2ead2a0a6843486c09f4d9dd09743e671a19ffbd82f2be580bdf604351450fc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|60b99316620c63180aca309cf0532c67124be9c1b29599d9683277b5a4a67688|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3e01159bb36b984d16fc8c8e52d5c509c61c07250e3a0dc6299f11bb6479b2d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e5dc0a0471c49ad0a2f3c42198e619c144239ef131d5274cf97ad2e676a49673|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|4b6b43b6a0f75e0442a0090a3cdca9aafab6219bf48fb6811e92d427ab6a67d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|84806999129b802e565e0b454636342aec571a5c100ff4547a83a67a50aad0c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|80543dd81d8af86fd6b320563872c85844edad1256d89fdd99186ede4bf0ee27|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9b8f54eff85b2b903e035e03668dba017288bd6733144f93f850ffa0af42f649|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|bd06d76ced615bf5d76a9f68486ecf6653cac7ec455594c54094c20529883608|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|5bc461d351d0fc3172c1b853f73f98646fca7b325971efd402a7bdfc27b60bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|00a03b3ad349926dc289087fa97eb1b42de2ad85f2032636be701e3c72e08380|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3e094a83183cac70f19dc88878767978b6445eb15d6b38353c81979b99dfa27e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1fd70887469083ed76dc5587dd1c013c0b31f256b3395b1ba94e18c66f6eca19|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f98d77654f9f18c3a0e7ab83456fc84ad27a640f976c2d130c70ad22daf81364|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|57b59584e03b4bba1e4d766ab7ccf85d193ca6d62cefd8bdef8662b40563d1bc|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|d9609ab6dfe3d2388fc115452c4f656e963b5d9cd71ddd3ffdf677651b875ac3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6c3e9b98e0ad0edf501ece8e776350caf0f491c14aa9c23af60ec5e5d6ca4908|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3aefb96325fefe63f031188c7f4814b48e915535686677b607d7bff7d4acab4d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6d5b5abdbc666fb2e3b96106071a120d4728fcd8427bbf7bb22a8462ddc695e3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f600bd0131eeca80b6fe741b261377782e1804dc3dc7348a13a09a46ca8bee13|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|073ac3ffc27c427d6a3ae60848405b5bcbb2ee1752550610cc3852da504d4491|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c6cd5564b42004b9d8c7d46e57a35b7830b582f33df6277e19cbedd5acf2ddcd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|4db4fc465a887d84aa31718480e253a4ef52553cb454540be3504513564f1c21|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|730c54fe3987608e9a17c6fd2e7fbb77bee816287705809f148caeadb4ed7a1a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0bb22ebf59e0f92bdc3255e604c403325ee4cdeec84ac5054d026a023c3d35e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7a04945e56fd494dbebad1f59e0fb3e132b7b6f07ede98bb304d36273004917a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|75cafcb2c391dab8beb9711d1d07252f8f2205dfa9bf735c2ecbaaaa0a1f6c96|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1873d8d4912a7a2dfd9f5627c5671587bb74b99ecb45ab22b90377a069d5328d|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|051fc83660a2880b8a3793450c2c95da96e79222eee013288785fd61df9bf45f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2d30bed73114c0afcb4f6a453b336e1af0b22e7e309b887e9ff2deaf108923e8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e3d33b2d2f2c77ff7a4e378487da79b4be3bef8888ea68055417f9413295e688|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e1d0cf69580752ea8d594932bad2108958298f55709dd6c79e3505b96cd62cf6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|972a184707b41635c0d3f8683e6d8bc3d7bf0b4414ff386285ca98991406b15c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e458f3fdf0e711d98626a1cf8652c238144698e7da49af24f899dc2928574dfd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2aad67747fd3cc3de8f14737f62e36e0fc0c01b26a5b2262adf24835c27041f4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|82566c5420c60cd4d22f0e0a283aa8c0ac65804e63b079e65eb6a4598ed79d82|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cd101528d60e11b1788cb0b2c034c393b9a5d30e736baeb78091013ca848900a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|28f7fc166d9530969fd82f6b15af2c6f23548ea4daddb6076aa48bd1e0923aac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2b4bc305832e0eb2a070c97045a05c51e11beedf561098dc3b0db1e351394406|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|962f41e6537b0f7d26973b1083466db77d4ed755ea729a35a574a9a2497f10a7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|42dd658d0e735b0811088092325260c089d39f870aed23d59732237a802e5259|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|904ff5c463762102baed82455f5d72897bb0cbe9761c9a53f859039cb13458ae|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a3497aa01d6098b14ec85d7259ea74fc2e40b6f97d4e8319772aef39859bb423|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|27068e8f1db1173ed6ace0bd15fb2196d8513075022b19517966f70190fa2ea4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f438d6c12244849a07d5de83f5efc6190136b335d2bdf0956983f8d17cf67b98|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3b63cbf136e49b15ce7da442f492b4e4a67ad3a63ea34707d72909a672bcfef5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6d59d9259ca98ac0719617c56adc6cc68629ec30116fff864e015b729581aa40|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2b41b0b84be2e99403b86676e782b11491d7465dd4d3b99f5f47151fdffd3040|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|dbfdcc04ae4ca992debbe345d22bfac09bef84d39a2b7486d62a5a89ba99bb48|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c76c7e7c83a654c54afd0d1f2b07d7555a58dcfcd045af6e7e8eb1f198f45cc4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|727ef72ec3323b12f14f9e41eb6a94c2db2779079fe8568e1805e70464381cc0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|983b26910260094f9aaf38fdbec2abfaaaf78101035e676a43e8a305bc403394|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|574b37af810338d36c7b385fb3cdbda611e5bd62f6dbf5ef8e0047ac2a3b8b50|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6e1dc3f3587e0d25f376d1f1fdf6df8a0912fac17e25a260ee1aacfa1cb189c0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|de493cd77e51848362c6e0c5c0af801442add97e0ea00a245b4c15bd5afb8dbf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0da0bee9bff8ca335cec0d80e0a7ef1e4ad847a385a7af342129a2d21bd6acbe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|95bb8fe1cab26de73100aec344b28b23544b7a53f5bb9fae9f258014348f9aca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|8558d296aaa26aed449b22c63dfc712fd463f9bfb57dcb1d109f7c671215d396|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|218efcac40bf56cdb6a5a5e23df2db22f306d6f7f8d83b31a749ea3200eb3e58|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c6a3f6a9989b586082c9b9179c3e736bedf543d6b5397862db21f3d3b9cf1751|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7af0163d8e366b878cf1547f1b230cf5f8956a036223e1a84933b726197148d1|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.25.region_keys":
+							[
+								"SL.htmltidy.Highlights.|2e007e19d64fdcb0eb0ad53a8b9dc43e0d79ce7bd1a80e85ec4028da50e138df|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|bd9e74d29ab7346d11164599e5731717b510da5450cb991e23d78cdfd6b52964|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|42dd658d0e735b0811088092325260c089d39f870aed23d59732237a802e5259|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|d81339965aa3a1c69c4718a0250f6c02d4a9ba9ba412a6c6128844a98e09d891|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0be94aec5fcb9647e56bc170ed2aea6d7f70f3e565c3b4ee3958ebe20f4e5441|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|eb815ca275654267dbb11ce74f0298ec653d25f6d722afc3117ac15c51448125|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e5dc0a0471c49ad0a2f3c42198e619c144239ef131d5274cf97ad2e676a49673|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e1d0d510fbaa269b031afa186b7bcf949d9454b37bbf3147e4230313b586a8dc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3b63cbf136e49b15ce7da442f492b4e4a67ad3a63ea34707d72909a672bcfef5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|75d13dbbcc52abff942da52c05542f6266efc55ef8d675b50c4ec638eeab2433|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|edfb68bb18bd374af7e2e691fdd6ef44a49b3f009aefb1e04135371568dde04a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9f054ea34822504d351de7db9dc14f3357cc7c7adf720dac77d2a206ad5d77a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|b4c73871a8da461c936cf0035857bea80d6e8700dbcccffc02be4043468f474e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0683e3b51debf0dbc3b43770b7038498bafe8e9f0153d623dff236f02176b51e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|45f396c4b61a702b441866c53cdff82dab18b8ad044b2d00e202c5a04a1f280e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|44f675d767b91faf22cd4b3d5b505b3ec6d4f8ec1822039b9d518b06927f3782|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|730c54fe3987608e9a17c6fd2e7fbb77bee816287705809f148caeadb4ed7a1a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|073ac3ffc27c427d6a3ae60848405b5bcbb2ee1752550610cc3852da504d4491|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9501d56e58712cfc1a125f4729204044a418bf80e43c789efb5a30e6cff166f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d9f488e3e4ddccfb929eed6e685ad3b4655809d887e1c2083cac1a312c88d1b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|29aa8fc021aea3d2e9a7107278f8bb599d3a5b3601db7e81032bb9e7ff016013|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|41e1afe4c84db1067c9cc5e76159be151a918336d53e2eb8f4d9183a4bcca537|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7eb0696ceb0045275a581becd1abed7fac546515e5fec80cc674bc397f4b81dd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7af78d90a0da09850aeba543c7c30cb574a62345b944f38af688144c6ee8d516|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9dfe0dddfe25617b8cf644cf04ecc8765155377c550bbfb5556a5f8ad782e8a0|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|51466c5cf9263ce0a56d78ce5d86e0a59854ae77341cf9bcb8a7a4cd5896817e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|024c66d6eb3bf3233f43cccebc6cad15965ec0a1ae7931c275ae0faf0e9825ed|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|5a79b8d40171fdbcc3526f9b599d07782e976fecbb9e31ed430e6625a58a74c2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|dd9c538d244fb60919c1239773f63057c0cdf83a77780b1dca2385ef1b2fcf4b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c1ac03554270fd23456b09bf80c9028260e107467c54b653abfcbaa9802b43e5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0f325a639a381abc323397c7dbe7fea0f5a7b2bf3f527f09796e19871b441bdf|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|578380ff7fd46dcc8c3f3548d746d2a4624ccccdcd42f86bc5d376ce323e4819|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e4fc9b7b7c0dbf6ea7072f84dde3808bea052d3be07a636128c3442ecfe3349c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6c09816f974b146f8c45e154d7048fcfaae04652e1c2dc8749758e530ca1cd6d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6c3e9b98e0ad0edf501ece8e776350caf0f491c14aa9c23af60ec5e5d6ca4908|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|6c7bf876fa60bf4953c77b40957bdde15276b8f969b4ff11b872b63cc0e3b508|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|2f743ece7b4590a042afa9912bc32a5544f7fcf178b39cae4c4a7f68a3b61847|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c4313911eccd4f18c75f04afdf57f7deb4d87739a51b8b64f11c722e6392bdab|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cae0ec3e52745a404c38e2e160c86f99210a5722282bd51e11e6b8b7b7816bfe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|33523e7ab6382f9c0c6e8c998c8afa67e6a343f451e7e1ee35e86087fd24ce77|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|aa426a4968812bdbc1049cf67cfcd8b54bc54bd89894e3493d780e1fa6ba70b1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6bf9eeda12a7f0a729cc5d7dd3aa3da8636895575280998edd9d2dc6e9853adc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|238220b70464882446f77ef45176d266bdbc266f02344634051c3bf819456fbe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6d1ce31c3a45d943e228142198221a7b7cf64780a08c2f9729415c5ca951414a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3f0276d2715e62e82d6fb23395a2c751244a653a4515cf69fb0f86118331b05b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|8ec5e01b19f28d121da4f62742b93806c866be3850aced6501d35e633c3610ee|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|bdf9025553a21be06263a81cb58a091bdd8b3ee8f236dd9e54b1a3ef4ea8343e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|218efcac40bf56cdb6a5a5e23df2db22f306d6f7f8d83b31a749ea3200eb3e58|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|532b6a592a63c58f3e58ce4bd64317b7baa3d4e8540f66efad34312d308d8b63|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|84b9d970807f6ad25dd76c4e3e4f6701a05f2f736f676bbf387683a39c181cbd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a9448d5a2381e98446425c142d920e011dedf53b90814f6a97217c1f37a0c28f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|2b41b0b84be2e99403b86676e782b11491d7465dd4d3b99f5f47151fdffd3040|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7af0163d8e366b878cf1547f1b230cf5f8956a036223e1a84933b726197148d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|78424fd673f9c50ef9eee16321bc3168c2df6aa17539a306c2a1715b8f5c5a25|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cde98aa9729d608364e8abc1c2c5273feb8793862ea1cff93c8b572886d8c4e9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|337ac3387dd57bd67ed8f671c6f308d42cbdad4b723e0cafbefcb2af42a832ca|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|dafd763ff5b82d5dc4d551ad62ae3c01d5d2908b7343d208e74ce41c58366d5f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3aefb96325fefe63f031188c7f4814b48e915535686677b607d7bff7d4acab4d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7359863cd8ae842d615f4360a715b5f12e09148882d2d1473a1e7e96ffce8326|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.htmltidy.Highlights.|5bc461d351d0fc3172c1b853f73f98646fca7b325971efd402a7bdfc27b60bde|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e946578717596e64a72a51d77735e267a390b54f9a9c68c198c19d77514901cd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c371f0f43d422355c240678ef94b0199b6326aca6336e806e38f8ea3ef6382ef|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|67dc5617ef79fcb84f5d73850162f454ed2fa5c23236a495ca090838706d2f2c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1bdf46f343ee344256baefe1f6776492d26b04d1e221d04d80842c952f8bd6da|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c2c5dfffd10a6637ed4c556182d707f5c4d582195ba3ef29a92d6edc6a9759c7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|ae9273643385798f58d0837544ea34750e39204ca172030d0f2dda4040390583|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|972a184707b41635c0d3f8683e6d8bc3d7bf0b4414ff386285ca98991406b15c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|17a41920979325e87fac320c1b6d4cb9c1cd7feda99b2ff7a4d30f9e3ed08539|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|57b59584e03b4bba1e4d766ab7ccf85d193ca6d62cefd8bdef8662b40563d1bc|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|39c1f711171a05c1ab646bb13f94615a4ba38ec9cfb2a372bcfac43d8fe4d4c6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|8f64eba3adbdaffdf28a1c1a8a2e41d0607996131f86d7d28ae93c377f1700eb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|f438d6c12244849a07d5de83f5efc6190136b335d2bdf0956983f8d17cf67b98|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|831910ad00f64a10b52005d6fb91d48fcfc3c3fec0b1d232292c484ca84cd47c|region.redish markup.error.sublime_linter|32"
+							],
 							"SL.27.region_keys":
 							[
-								"SL.htmltidy.Highlights.|6115fc8df5dd1bc4751053bb0459685007c1161977b10540f85465fb8e85215f|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|2d289cfa1fcae096714f31e141ba8e30055b28c8c8ffa4c1d1faf42744527d75|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|494cf6ec412c65b2d502378a4da2cd4b9ec48e1ad0c1c5b07cdfa5447bf26fb2|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|caaf595077340af88f96fcb3282c20dd883e017d65009fcacde5d38222d56657|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|f1696ec7586b4a9719297006b2f5bc2e10be7bccfb74c26cad665278e41b44f3|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|0d2b39d2ff9bb4a04ae51b2478ae540569fefbdc1833650be22a76882eb4b3ed|region.redish markup.error.sublime_linter|32",
-								"SL.htmltidy.Highlights.|6f1ebd601db460982b45b4d353be366653f5089140a120eae4cc4e9acca7bc90|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|a4a9228f02a3d0ce99f3be24b910065586725f86854d5781a8605b3b8232a5f7|region.redish markup.error.sublime_linter|32",
-								"SL.htmltidy.Highlights.|1721849d66b7569f6cba726dcacc097ecb1b665ea8ece96a9ad2d22bf30f10c9|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|8918f38b8d6c3b4def2e877c8ea9a9d8b21cc1751a74ae8e45288e79c6f4b4c1|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|444fd0a12dbbaa01d2151bde8c6adfd135c7b7386af757e52253adacbb7be956|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|0d46a8ca13a20067da08188e3f8947ebec71a54ba4c51a43af8240a45f40e402|region.redish markup.error.sublime_linter|32",
-								"SL.htmltidy.Highlights.|cde3595da01ac6107ab5107bf78317e8cd1292b73092f90a6a79b418333439b3|region.yellowish markup.warning.sublime_linter|32",
-								"sublime_linter.protected_regions",
-								"SL.htmltidy.Highlights.|1290bfceb26d36bcd20e78e215cd5e9093d7be0097d96f820e91cbeaf2aa1e79|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|7392b0ec047477108e05d909af181d1c201b9bf7d62ab976901892547e6ed60b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cab88916be4bf912c8babb4afc74990917c5c6198c8a9aad27be67b922f0c301|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|01c4e79c1bc45357bb52b7347eeb667c93ea5c63864213ac346978591ad304e9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|354a80411bd5963724d12b500dcb6008098c2d9f39f908442e94f3a771ebcb99|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|64a4371a8f5753139b256d5f508e9f1ae7c443a3e3a6b1a6a5b8d97f59202ede|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|56308980c1268ab230fd2a015adb5ac88f4e3a95fa6ddedcd3d72666eba6fe8d|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|151b6e99389083c46d224d1f5db5db0b9698120f37c740ef479bfa5b022921d4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|82e7b359855a94a2e041f86550d9793d0e0c6c355f147083a3ebbe68e49dbe37|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|5f4c5a6839687b6b57c06d482cd02b31330aff0e8c8b2d12da36acccfed23daa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|1b36a8729975feb0b223ceecdd387f0b39b22ce4941873bef57b071992dc33c3|region.yellowish markup.warning.sublime_linter|32",
 								"SL.htmltidy.Gutter.|region.redish markup.error.sublime_linter|dot",
-								"SL.htmltidy.Highlights.|94eb8925e8901099190be54e314281b870786a0c815339bdd7f0f8a6fddb2b05|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|970d44bcba9943533658fdb74b546a29e2c0ec5c09be1e4afcd2dc802ffa2b2f|region.redish markup.error.sublime_linter|32",
-								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32",
-								"SL.htmltidy.Highlights.|7904867b395c6f13841820299cb7755f98e90a55956bbfff4ea2f9c4a372ecfb|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|d3cdfa1f9ba2f138375d7eaa8afba9662de44a3fc8011dd071b26830527a3afe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|4628c8f9dd2097240ccbdca21d29a7f37922a2808cf0cd092a2226345f3f5859|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9142436bf926e4c1afce170198481937baf65dc21cbcb8af2ad6416a90134842|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6272da21ac9c67da1bf0958e2e659605f7e09f813fb6b8724942dab1f810b10e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c9f525efa062e9221d454d8454c7c570ab01155f6f378105a98edbdd28dbf917|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3ddf88eb56fbcb66c691260c9e6bb7e8024900644cf29101edd1ca48878434e7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cf0ddf7d3f4cf21607484618f3a51a25d79ec6597d6ffddf4ea305cbf754ea8a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a0656536346440a681547d939717ab5a6cbb12bc437a2ab7937f5b7f7767a869|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|25cdcfac7bdcec202b783190d20e399935daf4d5b6aa96a56ecd626c1b1b8b22|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|3ee4ffdad2ee88b93beff779ef7645e1b4187021a2472e3a0174597c0e9ddab5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|cef7c4f0b7850731499aeac7ccbf2c1179c9b9b4a40a60567b60b357a18b950a|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6d049d339864054c8d0f5a88dca208576aa7953861e6e9ff2c6cc89aac195134|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|9501d56e58712cfc1a125f4729204044a418bf80e43c789efb5a30e6cff166f3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|a4a9228f02a3d0ce99f3be24b910065586725f86854d5781a8605b3b8232a5f7|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|63543dacf43a45389f1bb55f01ec3a320e48504446d4a8a7b8288067e63f571b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|c986fe36eaa7e24f3690cce36e214cb7ec74ced9ec2ea4d8bbfb33958e7db55b|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d2b39d2ff9bb4a04ae51b2478ae540569fefbdc1833650be22a76882eb4b3ed|region.redish markup.error.sublime_linter|32",
 								"SL.htmltidy.Highlights.|7feb0d8e3857ec4f3715111543999f57cdd2b9b228e5cb99640f1c9adb970850|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|bc37dd2f25f93ef6d7bde6d84859233455774042858250850d1877086af5e4d2|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|863e0f784aadb701ed03b0b03ac9f6badab24ce38dcdab9ad334e979a8af14b6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|62bd4b29049851f687f24fc4e2709b72bde842eeff654703dbdf8e5641e5360b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|494cf6ec412c65b2d502378a4da2cd4b9ec48e1ad0c1c5b07cdfa5447bf26fb2|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.htmltidy.Highlights.|252beaffef660028f6020dbba2281e75a58f1e5a4cfdbdc91d4d2c79d92e1995|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|17ca47d2d4e63395a9ee045d038bea5d7616886b7f09298b5d95c46d35994228|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|90713f2f0dd4cebb51d42806fcb72a7cf9db5fb30820ce2806f9c35174f8db29|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|006e7bab888c23dad7bcab310c035e66950eaf346fdea2dcd5a7f3fe25c80dd6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|6ca0dba5caafa77093fb18f75c27655c52c011ca836ce2d3065961154998eb41|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|53d5dfdb16e8135f58a5ee7e97cf9be1833387a9c2e1450777a2c29c9b6ca8a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|0d46a8ca13a20067da08188e3f8947ebec71a54ba4c51a43af8240a45f40e402|region.redish markup.error.sublime_linter|32",
+								"SL.htmltidy.Highlights.|67777335627105ea396f6b3b4fde807f9e64133a49ce706ed622833467fe6eb8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|950d86570b44ff25b7434c5eead809e811bd6e6534f95c72ddaab6921a3cb7de|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|18f54fc0d158162cb23acdf772e3c9616f6461a030926dab5a2973602cdca050|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e0353dbefbf69726dadae8d945c328781c317b7ca720a8e3155cf3f1b654e55c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|e0d62ce1974546398d6159967a19fe05f359a7a541120c137de84c585c1a9a71|region.yellowish markup.warning.sublime_linter|32",
 								"SL.htmltidy.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
-								"SL.htmltidy.Highlights.|252beaffef660028f6020dbba2281e75a58f1e5a4cfdbdc91d4d2c79d92e1995|region.yellowish markup.warning.sublime_linter|32"
+								"SL.htmltidy.Highlights.|37837a14fe4e54dbd6128e5332e4b0a3bdaae6163d7358a65c443c70a3ba1449|region.yellowish markup.warning.sublime_linter|32",
+								"SL.htmltidy.Highlights.|fc18bba493a607535ad2bc6988e5f837f2e3cf632928617ab4cb61f26d3fa612|region.yellowish markup.warning.sublime_linter|32"
 							],
 							"SL.89.region_keys":
 							[
@@ -874,10 +1115,10 @@
 							"syntax": "Packages/HTML/HTML.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 692.8,
+						"translation.y": 1575.2,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -902,10 +1143,10 @@
 							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 378.4,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -933,7 +1174,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 4,
 					"type": "text"
 				},
 				{
@@ -942,7 +1183,124 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 4200,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3509,
+								3509
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+								"SL.csslint.Highlights.|a1f5834b68bb4dfa0f560e16de86ea8fbf8c28e1f06288b1eccd453c1715fcf3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a5254239dccea0970be6abb64a433bfa4e1c3b3462bfced6d1f4a3e1f7bfe206|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9dd9abff483a4b1ef84065dcee34cfa679d793b8c62079ef108dc2c79b4c9c41|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|5ebcd88336341d42634933e6419fcf86010f78ea4445bfb42eb55a404925e125|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|63b2c34ff3ddc7d95ba0bc62962574d4f7e8fd85c7a4f6d905da7766d6fb0029|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b45b7f7f23712cfb9c38cfba8028d1743c6fb1c69c433b15beeacc540a45df5b|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e1a113f6948b78cbe0e6168f4d3a3716b2082cbb2ffdeb93f629fa510256810d|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|210a72f961de689b6d6c06d4a8a3972cc00bc6e77ba8773cebca96b49af82f87|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|b3097d51f3537ca29a7d27db60f5096504ad3c3b2734a69af32b840070bf0cdd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3435b1ac7bc51f12a2b75f858b7408d5467dff6ca4f6ce41ebc2dec6bba4c53c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|48931830cb1c811980da94b930540b01944b73cf3e075ed35816bcbfb75d04c5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|e0fdf5bc475e88aed25697207cce0062c015e0ab138c445f95c71a26b590d8c7|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|ac7cb79ab5d761420624c14d25063e2f4675cc410b6033acc14aafd029df93c3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3864a75bd6124bea6a5ecdde044f57a82305318fbd71db5f4525a8155377c826|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ab268d6aa5a6d06cb103122709570f7576ee7faca93a9ae0b39cb44f2ffb8b97|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|eb47dd14875ff7ecf9916b36e517160bc8ba2bb864fa5ff97d45079932a89fd6|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a084f20f447b3003e08ad111123ae31b4a7d79df8fc565f42805377bfc9162cc|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|dc53b7467e166ed438d6a787778a9734e26b3d2b9db3da47bccf5b665b530ead|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.csslint.Highlights.|8c48dc4620308f2669f167a03c250bcc222d29ee9b5988fd017bdd0d152149b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d1341d3a3cfed3511b22efdffe4670cd9f02700538ae395c3b43783b3d1cce98|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|46429c6dd2d4200c6f876445071d475f100b3a0f65f2248b4cece1e30e9ea1a5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|12b0edeb2a7bafede5772e772e783b1bf59000bc39870b1b4c542cc7c508cb44|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|c7379480943ed49b87a2f15c759f9be647866eee9715994f09b86a708362af7d|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|2ecd3ef711ca601686567e35fc3f6e4f1652b4ab617c95dcd61bc8ea0839e9f5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d09ea3725e7aeae746c258d0474cef7085368796ccfbf1bdc1c2960f94333798|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0751aade53b99826b00172cee15c4213b73b7b8757c8204043298f36be64e0aa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|19c1070f23951f09af0fa40f7a115faae599ee7fef94e4dc8f0cc91184b5c45c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0155bf057cab0b7eab327273526fb14bbc5ddb5379a20f7e9e1937f005e75de1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|0788fdcbfeb1b589938d3c3f19e48d13deafc2580ff520933b72b6273d24217f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7f02be224f395d4435cf1f551e5113ffeb08b748611a427cca9009214d9677ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|767ddd7da312260b2cf72a4811153fcf1f283107d5787caccf98b475af1ec3d1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|901edb91b00f150b423b248a368458360831bc5d0e67a1062aaba9b508528661|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|73013e1aed2a0abe68b21581a68122f282a35e45ce46cc2b82060719b060a0b1|region.redish markup.error.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|5ee3b9deea438b20224fbe944393ab2269349ed09a308f68a3bd07c0c3245936|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|684a1f11d2618b59c81296560f8abf4f91d9098d1f16c4fa71c293af6cec56f7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9978f5399971043db509db5f946fade4187ef4f8b53b2af0861a47913a907f2a|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.28.region_keys":
+							[
+								"SL.csslint.Highlights.|4d90f8137b73309097bf92f373a08648c4f65726f1d740df14ca5b46ccffeddd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|c59986413acd157f50709164f96c318545fdf7c9d4acb25d2fb5b1be8c12763c|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9dd9abff483a4b1ef84065dcee34cfa679d793b8c62079ef108dc2c79b4c9c41|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|2f3d02489ab7674cbfecac50c906b0f55a3a016f81ac00c5469049f82a3de7fe|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|51325cd396c1dcdb954963f644cb39dd57d5e89944893190ce7d20afb2238966|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|86818e26db1dae371ee4348c8d6073c7ea51182a7f91b3cbf5284eac5b76a090|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|8ff2eb6b9ac9ed673f5b6410cfb03486a97caf1ee374e2df8ef5d7237cf7861e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|ec36a5d44e6e548d6ca2f55d7d8b90e4083406e0ace7aaf4a199fc47b72935ae|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|a306555e544d9985dfcbc4ba3fb1f1f61aa26a0db03728f29acf958c491d26b8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8f521835440c0a3850fe94cd24a4991b44899001db6a1b56a8f34003b1f8827e|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|e14f07e105ecca2fb2091444dcb2c084e66a6885b0996a5023364ddd1d5a91ac|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|747cc615115ef01d39c5eb90f27abb2a49a9955faa40f8f6b09dce950629be58|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|385a270fb3ed6a975fb8e6ebf3aa18d510a975d842e40e47b2ef8921665bd128|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f1b955de05f3f618b18f84c7d8f07db969adae71b4286e724fde114f19555f6f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1b4a9ecb0c8b4cf6f326fdc0ad982b89861c70db9fcd735b73afc618169c43ba|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f9b7df9f3ddfb579f01c339821503179772a735775cdc2ef6d7c9f154dbdecad|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8904d4148924763ecbfb37a86f634d717289742800b3a94017f90727d63297c1|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|3864a75bd6124bea6a5ecdde044f57a82305318fbd71db5f4525a8155377c826|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.redish markup.error.sublime_linter|dot",
+								"SL.csslint.Highlights.|695fda4b2afea3476f65c991f2b0a8f63d62516e39a0d168578919bb2d1e59f8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|efbde5c2369e9c45df8452e87b8b912a4f946256ef6b5c6b13ce35618e6c8ea5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1e34baf2c087d363433b8f8eb865cf43120f51c832a0bb16e83fbf7caae1bd7c|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|a6adc5c612a78b88297ab67bf8320bf84f8016403898592c007f4d8ccb49c04f|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|d9cfb2a50ad6b4f1af86ee15380a07f7cba3e1905e0de50381b220547edaaa61|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1a335b98fe8b4fc8a4cfe8232d8544ea4a87befe18287fae482c2bbab7d9c468|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|246b76489c1ced05a38b6fb62180feb2d8c7de0ed22f3cde6d7db3b533128a97|region.redish markup.error.sublime_linter|32",
+								"SL.csslint.Highlights.|7467065f6b801c457fd9d14b4e5434d65984901eaca294a82180c888346a7ab9|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|8c48dc4620308f2669f167a03c250bcc222d29ee9b5988fd017bdd0d152149b3|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|862ed4efd5e071c93bfdd9d67a37f2b15f2f97c8fcd3d3c0ddea0c2257ba3731|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|f530d2c531a28fb5f384808e8cd308dcf5ebf6de5b473cac52d360de02cddfdd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|7ce95f348b4ca613b58b5285eecfe1885f5ef8c36de820aeff6fa9e8bf7dabf8|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6e0789ecab04104e40dcd31bdbee79f8c49aabdc80f68fab08393abe79b48f56|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|9bc7e3bcd8e7456c3a0cd22a1ab39b20566aac1ead438073b8e0d4796a0d414e|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|108aff797c31d475ed8fa258abc58bfdd094a16d0d7791be08a9eda7e597c5d5|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4faf12b8e701f21f6089f06fc4c5a63d08ea467b061bab04cb9d568cc0b2c392|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|116a89cdab89697899947179b447755b28421336c7050d31dcf9a4191b0024c4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|99f034d0aebedcdcbf0169aad6e7e9a2d9cc135466858bb28f2f1646a1ced9cf|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|4e829deb060f25b9e1b6a2193941767b1bc915eb7f978433aa8d7429b41e60fd|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|6a19f08b80676cab33164986d349f1ebcfc940b1674837f79e813ddf3cd22dca|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.90.region_keys":
+							[
+							],
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 4914.4,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "/home/adrian/launch_school/contact_manager_sinatra/Rakefile",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 130,
 						"regions":
 						{
 						},
@@ -955,16 +1313,58 @@
 						],
 						"settings":
 						{
-							"SL.90.region_keys":
+							"SL.30.region_keys":
 							[
 							],
+							"syntax": "Packages/Ruby/Ruby.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "stylesheets/whitespace-reset.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 845,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								794,
+								794
+							]
+						],
+						"settings":
+						{
+							"SL.45.region_keys":
+							[
+								"SL.csslint.Highlights.|b28a11681733c284278108cba54c5910e13a984c2f58db5087c54977dd186e56|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|db6ddd8c2f08f092f74dc57e131243b8baf0fd7e176902abe2331f933623154a|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.csslint.Highlights.|2befe26f7d4841ebd65f34eec49bf156b2b6cd437075b5f80abee1c23c6a88e4|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.csslint.Highlights.|ca05afa10953ba20b50dabbf756fe91299fcf90707d56382a2a00540f9e6a782|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|a89cc5606d4fd1f8dfbe35213203bf9487aa5caedae6539695d7c5f9308c7aaa|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|1fb0581b88a39c1050005b1f33cc1faba0defffa0bb23c77b98df9ed253f36c7|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|09d9231b18770bd2c2e467fb1b7c470de64521cef3c616a5d1df23c9ef029064|region.yellowish markup.warning.sublime_linter|32",
+								"SL.csslint.Highlights.|00a030ca6346d1eff130e1c4db48ef39cb4b4a91fc19f343c119b4ca2dc242f9|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"auto_name": "/*",
 							"syntax": "Packages/CSS/CSS.sublime-syntax"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 4,
+					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -1031,12 +1431,16 @@
 	},
 	"select_project":
 	{
-		"height": 0.0,
+		"height": 625.0,
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"",
+				"~/ella/ella_website.sublime-project"
+			]
 		],
-		"width": 0.0
+		"width": 475.0
 	},
 	"select_symbol":
 	{

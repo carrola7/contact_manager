@@ -105,6 +105,8 @@ class ContactsList {
   display() {
     const html = this.templates.contact_template({ contacts: this.contacts });
     this.element.innerHTML = html;
+    $(this.element.parentNode).slideDown(800);
+    this.updateNoContactMessage();
   }
 
   update(contact) {
@@ -134,14 +136,20 @@ class ContactsList {
 
   add(contact) {
     this.element.innerHTML += this.templates.contactPartial(new Contact(contact));
+    this.updateNoContactMessage();
   }
 
   remove(id) {
     this.delete(id)
       .then(() => {
         this.find(id).remove();
+        this.updateNoContactMessage();
       })
       .catch(response => console.error(response));
+  }
+
+  updateNoContactMessage() {
+    document.getElementById('no_contacts').classList.toggle('hidden', this.size() > 0);
   }
 
   delete(id) {
@@ -162,6 +170,10 @@ class ContactsList {
   find(id) {
     const contacts = this.element.querySelectorAll('li.contact');
     return Array.from(contacts).filter(contact => contact.getAttribute('data-id') === id)[0];
+  }
+
+  size() {
+    return this.element.querySelectorAll('li.contact').length
   }
 }
 
@@ -209,6 +221,7 @@ class App {
   }
 
   show(page) {
+    this.removeFormErrors();
     const $visible = $('div.page:visible');
     $(page).appendTo($('main'));
     $(page).show();
@@ -301,6 +314,8 @@ class App {
     if (!tagInputElement.value.match(tagText)) {
       tagInputElement.value += tagInputElement.value ? `,${tagText}` : tagText;
       tagList.innerHTML += this.templates.tagPartial(tagText);
+    } else if (tagText) {
+      $(tagList).find(`li[data-name="${tagText}"]`).effect("shake");
     }
   }
 
@@ -334,6 +349,12 @@ class App {
       page.querySelector('ul.tags_list'),
       page
     ]
+  }
+
+  removeFormErrors() {
+    document.querySelectorAll('p.error').forEach(p => p.textContent = "");
+    document.querySelectorAll('label.error').forEach(l => l.classList.remove('error'));
+    document.querySelectorAll('input.error').forEach(i => i.classList.remove('error'));
   }
 }
 

@@ -11,6 +11,7 @@ class ContactsApp < Sinatra::Base
   use Rack::PostBodyContentTypeParser
 
   set :database_file, "config/database.yml"
+  set :environment, :production
 
   after do
     ActiveRecord::Base.clear_active_connections!

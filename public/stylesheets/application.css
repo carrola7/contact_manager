@@ -3,6 +3,7 @@
 html { 
   font-size: 14px;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+  min-width: 420px;
 }
 
 .hidden {
@@ -27,9 +28,17 @@ header {
   padding: 1.3rem;
 }
 
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
 main {
   width: 70%;
   margin: 0 auto;
+  padding: 0 0 30px 0;
+  border-bottom: 1px solid #E4E4E4;
+
 }
 
 h1, h2, h4 {
@@ -245,14 +254,19 @@ p.error {
 }
 
 ul.form_control {
-  margin-left: 23%;
-  margin-top: 20px;
+  margin: 20px 0 30px 23%;
 }
 
 ul.form_control button {
   width: 40%;
   margin-right: 20px;
   padding: 0.8rem 0;
+}
+
+p#no_contacts {
+  text-align: center;
+  font-size: 1.2rem;
+  padding: 2rem 0 0 0;
 }
 
 @media (max-width: 1700px) {
@@ -278,6 +292,32 @@ ul.form_control button {
 @media (max-width: 768px) {
   ul#contacts_list {
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+  }
+
+  li.text_field dl {
+    display: block;
+    margin-left: 15%
+  }
+
+  li.text_field label {
+    float: none;
+  }
+
+  li.text_field dt {
+    margin-left: 20px;
+    width: 100%;
+  }
+
+  ul.form_control button{
+    display: block;
+    width: 90%;
+    margin: 0 auto 10px auto;
+  }
+
+  ul.form_control {
+    width: 55%;
+    margin: 0 0 0 20%;
   }
 
   main {
